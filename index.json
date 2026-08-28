@@ -1,90 +1,97 @@
 {
-  "generated_at": "2026-08-28T13:02:43.574262+00:00",
-  "lists": [
+  "generated_at": "2026-08-28T18:48:10Z",
+  "domain_lists": [
     {
-      "name": "AI.lst",
+      "name": "ai",
       "domain_count": 65,
-      "url_path": "lists/AI.lst"
+      "url_path": "data/ai"
     },
     {
-      "name": "Anime.lst",
+      "name": "anime",
       "domain_count": 36,
-      "url_path": "lists/Anime.lst"
+      "url_path": "data/anime"
     },
     {
-      "name": "Art.lst",
+      "name": "art",
       "domain_count": 28,
-      "url_path": "lists/Art.lst"
+      "url_path": "data/art"
     },
     {
-      "name": "Communication.lst",
+      "name": "communication",
       "domain_count": 96,
-      "url_path": "lists/Communication.lst"
+      "url_path": "data/communication"
     },
     {
-      "name": "Design.lst",
+      "name": "design",
       "domain_count": 15,
-      "url_path": "lists/Design.lst"
+      "url_path": "data/design"
     },
     {
-      "name": "Education.lst",
+      "name": "education",
       "domain_count": 7,
-      "url_path": "lists/Education.lst"
+      "url_path": "data/education"
     },
     {
-      "name": "Finance.lst",
+      "name": "finance",
       "domain_count": 8,
-      "url_path": "lists/Finance.lst"
+      "url_path": "data/finance"
     },
     {
-      "name": "Gambling.lst",
+      "name": "gambling",
       "domain_count": 9,
-      "url_path": "lists/Gambling.lst"
+      "url_path": "data/gambling"
     },
     {
-      "name": "Games.lst",
+      "name": "games",
       "domain_count": 9,
-      "url_path": "lists/Games.lst"
+      "url_path": "data/games"
     },
     {
-      "name": "Hosting-Dev.lst",
+      "name": "hosting-dev",
       "domain_count": 37,
-      "url_path": "lists/Hosting-Dev.lst"
+      "url_path": "data/hosting-dev"
     },
     {
-      "name": "Music.lst",
+      "name": "music",
       "domain_count": 27,
-      "url_path": "lists/Music.lst"
+      "url_path": "data/music"
     },
     {
-      "name": "News-Media.lst",
+      "name": "news-media",
       "domain_count": 65,
-      "url_path": "lists/News-Media.lst"
+      "url_path": "data/news-media"
     },
     {
-      "name": "Porn.lst",
+      "name": "porn",
       "domain_count": 26,
-      "url_path": "lists/Porn.lst"
+      "url_path": "data/porn"
     },
     {
-      "name": "Social.lst",
+      "name": "social",
       "domain_count": 89,
-      "url_path": "lists/Social.lst"
+      "url_path": "data/social"
     },
     {
-      "name": "Tools.lst",
+      "name": "tools",
       "domain_count": 77,
-      "url_path": "lists/Tools.lst"
+      "url_path": "data/tools"
     },
     {
-      "name": "Torrents.lst",
+      "name": "torrents",
       "domain_count": 27,
-      "url_path": "lists/Torrents.lst"
+      "url_path": "data/torrents"
     },
     {
-      "name": "Video.lst",
+      "name": "video",
       "domain_count": 252,
-      "url_path": "lists/Video.lst"
+      "url_path": "data/video"
+    }
+  ],
+  "ipv4_route_lists": [
+    {
+      "name": "telegram",
+      "route_count": 2,
+      "url_path": "data-ipv4/telegram"
     }
   ]
 }
