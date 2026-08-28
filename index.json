@@ -1,77 +1,90 @@
 {
-  "generated_at": "2026-08-28T12:41:43.676739+00:00",
+  "generated_at": "2026-08-28T13:02:43.574262+00:00",
   "lists": [
     {
       "name": "AI.lst",
-      "domain_count": 65
-    },
-    {
-      "name": "All-From-ip-list-plus-manual.lst",
-      "domain_count": 855
+      "domain_count": 65,
+      "url_path": "lists/AI.lst"
     },
     {
       "name": "Anime.lst",
-      "domain_count": 36
+      "domain_count": 36,
+      "url_path": "lists/Anime.lst"
     },
     {
       "name": "Art.lst",
-      "domain_count": 28
+      "domain_count": 28,
+      "url_path": "lists/Art.lst"
     },
     {
       "name": "Communication.lst",
-      "domain_count": 96
+      "domain_count": 96,
+      "url_path": "lists/Communication.lst"
     },
     {
       "name": "Design.lst",
-      "domain_count": 15
+      "domain_count": 15,
+      "url_path": "lists/Design.lst"
     },
     {
       "name": "Education.lst",
-      "domain_count": 7
+      "domain_count": 7,
+      "url_path": "lists/Education.lst"
     },
     {
       "name": "Finance.lst",
-      "domain_count": 8
+      "domain_count": 8,
+      "url_path": "lists/Finance.lst"
     },
     {
       "name": "Gambling.lst",
-      "domain_count": 9
+      "domain_count": 9,
+      "url_path": "lists/Gambling.lst"
     },
     {
       "name": "Games.lst",
-      "domain_count": 9
+      "domain_count": 9,
+      "url_path": "lists/Games.lst"
     },
     {
       "name": "Hosting-Dev.lst",
-      "domain_count": 37
+      "domain_count": 37,
+      "url_path": "lists/Hosting-Dev.lst"
     },
     {
       "name": "Music.lst",
-      "domain_count": 27
+      "domain_count": 27,
+      "url_path": "lists/Music.lst"
     },
     {
       "name": "News-Media.lst",
-      "domain_count": 65
+      "domain_count": 65,
+      "url_path": "lists/News-Media.lst"
     },
     {
       "name": "Porn.lst",
-      "domain_count": 26
+      "domain_count": 26,
+      "url_path": "lists/Porn.lst"
     },
     {
       "name": "Social.lst",
-      "domain_count": 89
+      "domain_count": 89,
+      "url_path": "lists/Social.lst"
     },
     {
       "name": "Tools.lst",
-      "domain_count": 77
+      "domain_count": 77,
+      "url_path": "lists/Tools.lst"
     },
     {
       "name": "Torrents.lst",
-      "domain_count": 27
+      "domain_count": 27,
+      "url_path": "lists/Torrents.lst"
     },
     {
       "name": "Video.lst",
-      "domain_count": 252
+      "domain_count": 252,
+      "url_path": "lists/Video.lst"
     }
   ]
 }
