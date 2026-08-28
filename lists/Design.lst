@@ -1,0 +1,15 @@
+api.prod.sketch.com
+api.sketchapp.com
+capacitor-incoming-prod.s3.amazonaws.com
+capacitor.prod.sketch.com
+download.sketch.com
+download.sketchapp.com
+events.sketch.cloud
+figma.com
+graphql.sketch.cloud
+metrics-collector.prod.sketch.com
+payments.prod.sketch.com
+presence.prod.sketch.com
+resources-live.sketch.cloud
+sketch-resources-incoming-live.s3-accelerate.amazonaws.com
+sketch.com

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-08-28T12:41:43.676739+00:00",
+  "lists": [
+    {
+      "name": "AI.lst",
+      "domain_count": 65
+    },
+    {
+      "name": "All-From-ip-list-plus-manual.lst",
+      "domain_count": 855
+    },
+    {
+      "name": "Anime.lst",
+      "domain_count": 36
+    },
+    {
+      "name": "Art.lst",
+      "domain_count": 28
+    },
+    {
+      "name": "Communication.lst",
+      "domain_count": 96
+    },
+    {
+      "name": "Design.lst",
+      "domain_count": 15
+    },
+    {
+      "name": "Education.lst",
+      "domain_count": 7
+    },
+    {
+      "name": "Finance.lst",
+      "domain_count": 8
+    },
+    {
+      "name": "Gambling.lst",
+      "domain_count": 9
+    },
+    {
+      "name": "Games.lst",
+      "domain_count": 9
+    },
+    {
+      "name": "Hosting-Dev.lst",
+      "domain_count": 37
+    },
+    {
+      "name": "Music.lst",
+      "domain_count": 27
+    },
+    {
+      "name": "News-Media.lst",
+      "domain_count": 65
+    },
+    {
+      "name": "Porn.lst",
+      "domain_count": 26
+    },
+    {
+      "name": "Social.lst",
+      "domain_count": 89
+    },
+    {
+      "name": "Tools.lst",
+      "domain_count": 77
+    },
+    {
+      "name": "Torrents.lst",
+      "domain_count": 27
+    },
+    {
+      "name": "Video.lst",
+      "domain_count": 252
+    }
+  ]
+}
