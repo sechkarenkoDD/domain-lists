@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T14:24:06Z",
+  "generated_at": "2026-09-01T04:56:18Z",
   "domain_lists": [
     {
       "name": "ai",
@@ -18,7 +18,7 @@
     },
     {
       "name": "communication",
-      "domain_count": 96,
+      "domain_count": 97,
       "url_path": "data/communication"
     },
     {
