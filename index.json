@@ -17,6 +17,11 @@
       "url_path": "data/art"
     },
     {
+      "name": "automotive",
+      "domain_count": 1,
+      "url_path": "data/automotive"
+    },
+    {
       "name": "communication",
       "domain_count": 97,
       "url_path": "data/communication"
@@ -53,7 +58,7 @@
     },
     {
       "name": "music",
-      "domain_count": 69,
+      "domain_count": 60,
       "url_path": "data/music"
     },
     {
