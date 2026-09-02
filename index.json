@@ -3,7 +3,7 @@
   "domain_lists": [
     {
       "name": "ai",
-      "domain_count": 65,
+      "domain_count": 70,
       "url_path": "data/ai"
     },
     {
