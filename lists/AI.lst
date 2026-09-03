@@ -4,6 +4,7 @@ amazonaws.com
 anthropic.com
 appcenter.ms
 app.deepl.com
+appdownload.deepl.com
 appspot.com
 api-free.deepl.com
 api.deepl.com
@@ -42,6 +43,7 @@ elevenlabs.io
 errortracking.deepl.com
 experimentation-grpc.deepl.com
 experimentation.deepl.com
+fal-lb.deepl.com
 github.com
 githubcopilot.com
 githubusercontent.com
@@ -59,6 +61,7 @@ ita-free.app.deepl.com
 ita-free.www.deepl.com
 jetbrains.ai
 jetbrains.com
+kef-lb.deepl.com
 kilo.ai
 live.net
 login-wall.deepl.com
@@ -75,15 +78,22 @@ openai.com
 openai.fund
 openai.org
 ott.deepl.com
+oneshot-free.www.deepl.com
+oneshot-pro.www.deepl.com
 perplexity.ai
 perplexity.com
 pollo.ai
 pplx.ai
+s-lb.deepl.com
+s.deepl.com
 sso.deepl.com
+statsigapi.net
 static.deepl.com
 support.deepl.com
 trust.deepl.com
 w.deepl.com
+web-release-lb.www.deepl.com
+web-release.www.deepl.com
 withgoogle.com
 write-free.www.deepl.com
 www.deepl.com
