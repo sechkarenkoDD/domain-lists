@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:56:18Z",
+  "generated_at": "2026-09-04T17:42:27Z",
   "domain_lists": [
     {
       "name": "ai",
@@ -97,6 +97,11 @@
       "name": "telegram",
       "route_count": 2,
       "url_path": "data-ipv4/telegram"
+    },
+    {
+      "name": "1001tracklists",
+      "route_count": 1,
+      "url_path": "data-ipv4/1001tracklists"
     }
   ]
 }
