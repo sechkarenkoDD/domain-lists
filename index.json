@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:42:27Z",
+  "generated_at": "2026-09-04T18:36:57Z",
   "domain_lists": [
     {
       "name": "ai",
@@ -58,7 +58,7 @@
     },
     {
       "name": "music",
-      "domain_count": 60,
+      "domain_count": 79,
       "url_path": "data/music"
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "name": "1001tracklists",
-      "route_count": 1,
+      "route_count": 2,
       "url_path": "data-ipv4/1001tracklists"
     }
   ]
