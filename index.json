@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-09-04T18:36:57Z",
+  "generated_at": "2026-09-08T17:28:55.954Z",
+  "generated_from": "service-catalog.json",
   "domain_lists": [
     {
       "name": "ai",
@@ -73,7 +74,7 @@
     },
     {
       "name": "social",
-      "domain_count": 92,
+      "domain_count": 91,
       "url_path": "data/social"
     },
     {

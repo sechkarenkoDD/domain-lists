@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "serviceCount": 355,
+  "uniqueDomains": 912,
+  "sourceEntries": 930,
+  "ipv4Lists": 1,
+  "ipv4Networks": 2,
+  "perCategory": {
+    "ai": {
+      "entries": 65,
+      "uniqueDomains": 65,
+      "services": 32,
+      "unclassified": []
+    },
+    "anime": {
+      "entries": 36,
+      "uniqueDomains": 36,
+      "services": 27,
+      "unclassified": []
+    },
+    "art": {
+      "entries": 28,
+      "uniqueDomains": 28,
+      "services": 16,
+      "unclassified": []
+    },
+    "automotive": {
+      "entries": 1,
+      "uniqueDomains": 1,
+      "services": 1,
+      "unclassified": []
+    },
+    "communication": {
+      "entries": 97,
+      "uniqueDomains": 97,
+      "services": 37,
+      "unclassified": []
+    },
+    "design": {
+      "entries": 15,
+      "uniqueDomains": 15,
+      "services": 2,
+      "unclassified": []
+    },
+    "education": {
+      "entries": 7,
+      "uniqueDomains": 7,
+      "services": 6,
+      "unclassified": []
+    },
+    "finance": {
+      "entries": 8,
+      "uniqueDomains": 8,
+      "services": 6,
+      "unclassified": []
+    },
+    "gambling": {
+      "entries": 9,
+      "uniqueDomains": 9,
+      "services": 7,
+      "unclassified": []
+    },
+    "games": {
+      "entries": 9,
+      "uniqueDomains": 9,
+      "services": 5,
+      "unclassified": []
+    },
+    "hosting-dev": {
+      "entries": 37,
+      "uniqueDomains": 37,
+      "services": 12,
+      "unclassified": []
+    },
+    "music": {
+      "entries": 79,
+      "uniqueDomains": 79,
+      "services": 34,
+      "unclassified": []
+    },
+    "news-media": {
+      "entries": 65,
+      "uniqueDomains": 65,
+      "services": 51,
+      "unclassified": []
+    },
+    "porn": {
+      "entries": 26,
+      "uniqueDomains": 26,
+      "services": 18,
+      "unclassified": []
+    },
+    "social": {
+      "entries": 91,
+      "uniqueDomains": 91,
+      "services": 28,
+      "unclassified": []
+    },
+    "tools": {
+      "entries": 78,
+      "uniqueDomains": 78,
+      "services": 46,
+      "unclassified": []
+    },
+    "torrents": {
+      "entries": 27,
+      "uniqueDomains": 27,
+      "services": 16,
+      "unclassified": []
+    },
+    "video": {
+      "entries": 252,
+      "uniqueDomains": 252,
+      "services": 28,
+      "unclassified": []
+    }
+  },
+  "repeatedDomains": [
+    {
+      "domain": "amazonaws.com",
+      "categories": [
+        "ai",
+        "hosting-dev",
+        "tools"
+      ]
+    },
+    {
+      "domain": "github.com",
+      "categories": [
+        "ai",
+        "hosting-dev"
+      ]
+    },
+    {
+      "domain": "google.com",
+      "categories": [
+        "ai",
+        "social",
+        "video"
+      ]
+    },
+    {
+      "domain": "intellij.net",
+      "categories": [
+        "ai",
+        "hosting-dev"
+      ]
+    },
+    {
+      "domain": "jetbrains.com",
+      "categories": [
+        "ai",
+        "hosting-dev"
+      ]
+    },
+    {
+      "domain": "wstracker.online",
+      "categories": [
+        "anime",
+        "porn",
+        "torrents"
+      ]
+    },
+    {
+      "domain": "facebook.com",
+      "categories": [
+        "communication",
+        "social"
+      ]
+    },
+    {
+      "domain": "fbcdn.net",
+      "categories": [
+        "communication",
+        "social"
+      ]
+    },
+    {
+      "domain": "fbsbx.com",
+      "categories": [
+        "communication",
+        "social"
+      ]
+    },
+    {
+      "domain": "googleapis.com",
+      "categories": [
+        "communication",
+        "video"
+      ]
+    },
+    {
+      "domain": "googleusercontent.com",
+      "categories": [
+        "hosting-dev",
+        "video"
+      ]
+    },
+    {
+      "domain": "akamaized.net",
+      "categories": [
+        "music",
+        "social"
+      ]
+    },
+    {
+      "domain": "fastly.net",
+      "categories": [
+        "music",
+        "news-media"
+      ]
+    },
+    {
+      "domain": "onetrust.com",
+      "categories": [
+        "tools",
+        "video"
+      ]
+    },
+    {
+      "domain": "kinozal.me",
+      "categories": [
+        "torrents",
+        "video"
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "domain": "capacitor-incoming-prod.s3.amazonaws.com",
+      "service": "sketch",
+      "parent": "amazonaws.com",
+      "parentService": "aws"
+    },
+    {
+      "domain": "sketch-resources-incoming-live.s3-accelerate.amazonaws.com",
+      "service": "sketch",
+      "parent": "amazonaws.com",
+      "parentService": "aws"
+    },
+    {
+      "domain": "dcs-spotify.megaphone.fm",
+      "service": "megaphone-podcast-delivery",
+      "parent": "megaphone.fm",
+      "parentService": "megaphone"
+    },
+    {
+      "domain": "dcs-spotify.megaphone.fm.akamaized.net",
+      "service": "megaphone-podcast-delivery",
+      "parent": "akamaized.net",
+      "parentService": "akamai"
+    },
+    {
+      "domain": "spotify-edge.megaphone.fm",
+      "service": "megaphone-podcast-delivery",
+      "parent": "megaphone.fm",
+      "parentService": "megaphone"
+    },
+    {
+      "domain": "distorted-dev.s3.amazonaws.com",
+      "service": "thisisdistorted",
+      "parent": "amazonaws.com",
+      "parentService": "aws"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

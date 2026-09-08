@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "description": "Completed dispositions only. Other catalog review flags remain unresolved; no claim of full verification.",
+  "decisions": [
+    {
+      "service": "grammarly",
+      "outcome": "documented-membership",
+      "domains": [
+        "grammarly.com",
+        "grammarly.io"
+      ],
+      "source": "https://support.grammarly.com/hc/en-us/articles/5806184637325-Error-Can-t-connect-to-Grammarly-or-Something-went-wrong"
+    },
+    {
+      "service": "infra-adjust-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "adjust.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-auth0-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "auth0.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "anilibria",
+      "outcome": "documented-membership",
+      "domains": [
+        "anilibria.tv",
+        "libria.fun"
+      ],
+      "source": "https://github.com/anilibria/docs/blob/master/api_v2.md"
+    },
+    {
+      "service": "infra-wstracker-online",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "wstracker.online"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "pixiv",
+      "outcome": "documented-membership",
+      "domains": [
+        "pastela.app",
+        "vroid.com"
+      ],
+      "source": "https://www.pixiv.co.jp/service/"
+    },
+    {
+      "service": "infra-dynect-net",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "dynect.net"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-softlayer-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "softlayer.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "sketch",
+      "outcome": "documented-membership",
+      "domains": [
+        "capacitor-incoming-prod.s3.amazonaws.com",
+        "sketch-resources-incoming-live.s3-accelerate.amazonaws.com"
+      ],
+      "source": "https://www.sketch.com/support/troubleshooting/mac-app/network-settings/"
+    },
+    {
+      "service": "infra-amplitude-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "amplitude.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "modrinth",
+      "outcome": "documented-membership",
+      "domains": [
+        "modrinth.gg"
+      ],
+      "source": "https://modrinth.com/hosting"
+    },
+    {
+      "service": "infra-ad-delivery-net",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "ad-delivery.net"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-cdn-privacy-mgmt-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "cdn.privacy-mgmt.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-edge-cdn-vitals-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "edge.cdn-vitals.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-adsbynimbus-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "adsbynimbus.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-bytetcdn-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "bytetcdn.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-ipstatp-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "ipstatp.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-isnssdk-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "isnssdk.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-sgsnssdk-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "sgsnssdk.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-tlivecdn-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "tlivecdn.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "basecamp",
+      "outcome": "documented-membership",
+      "domains": [
+        "37signals.com",
+        "basecamp.com",
+        "basecampapi.com"
+      ],
+      "source": "https://github.com/basecamp/bc-api"
+    },
+    {
+      "service": "canva",
+      "outcome": "documented-membership",
+      "domains": [
+        "canva-apps.com",
+        "canva.com"
+      ],
+      "source": "https://www.canva.dev/docs/apps/previewing-apps/"
+    },
+    {
+      "service": "fmhy",
+      "outcome": "documented-membership",
+      "domains": [
+        "fmhy.lol",
+        "fmhy.net"
+      ],
+      "source": "https://fmhy.net/posts/nov-2024"
+    },
+    {
+      "service": "infra-backblazeb2-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "backblazeb2.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-onetrust-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "onetrust.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-pubnubapi-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "pubnubapi.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-qualtrics-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "qualtrics.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-splunkcloud-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "splunkcloud.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "infra-zendesk-com",
+      "outcome": "independent-infrastructure",
+      "domains": [
+        "zendesk.com"
+      ],
+      "note": "Keep as its own routing unit; no consumer service affiliation asserted."
+    },
+    {
+      "service": "miro",
+      "outcome": "documented-membership",
+      "domains": [
+        "miro.com",
+        "mirostatic.com"
+      ],
+      "source": "https://help.miro.com/hc/en-us/articles/20857452690706-Miro-domains-reference"
+    }
+  ]
+}

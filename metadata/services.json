@@ -1,0 +1,6105 @@
+{
+  "version": 2,
+  "description": "Generated from ../service-catalog.json. Edit that single source file.",
+  "services": [
+    {
+      "id": "anthropic",
+      "name": "Anthropic / Claude",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/anthropic"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "anthropic.com",
+        "clau.de",
+        "claude.ai",
+        "claude.app",
+        "claude.com",
+        "claude.new",
+        "claude.site",
+        "claudemcpclient.com",
+        "claudemcpcontent.com",
+        "claudepages.dev",
+        "claudestudio.com",
+        "claudeusercontent.com"
+      ]
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/azure"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "azureedge.net"
+      ]
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/bing"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "bing.com",
+        "bingapis.com"
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/cloudflare"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "cloudflareaccess.com"
+      ]
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/cloudinary"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "cloudinary.com"
+      ]
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "kind": "shared",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "browser-intake-datadoghq.com",
+        "datadoghq.com"
+      ]
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/linguee"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "deepl.com"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/deepseek"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "deepseek.com"
+      ]
+    },
+    {
+      "id": "domain-gpt3-openai-com",
+      "name": "gpt3-openai.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "gpt3-openai.com"
+      ]
+    },
+    {
+      "id": "domain-kilo-ai",
+      "name": "kilo.ai",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "kilo.ai"
+      ]
+    },
+    {
+      "id": "domain-modelcontextprotocol-com",
+      "name": "modelcontextprotocol.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "modelcontextprotocol.com"
+      ]
+    },
+    {
+      "id": "domain-modelcontextprotocol-io",
+      "name": "Model Context Protocol",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://modelcontextprotocol.io/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "modelcontextprotocol.io",
+          "modelcontextprotocol.net",
+          "modelcontextprotocol.org"
+        ]
+      },
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "modelcontextprotocol.io",
+        "modelcontextprotocol.net",
+        "modelcontextprotocol.org"
+      ]
+    },
+    {
+      "id": "domain-openai-fund",
+      "name": "openai.fund",
+      "kind": "independent",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "openai.fund"
+        ]
+      },
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "openai.fund"
+      ]
+    },
+    {
+      "id": "domain-openai-org",
+      "name": "openai.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "openai.org"
+      ]
+    },
+    {
+      "id": "domain-pollo-ai",
+      "name": "pollo.ai",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "pollo.ai"
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/elevenlabs"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "elevenlabs.io"
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/github-copilot"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "githubcopilot.com"
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://support.grammarly.com/hc/en-us/articles/5806184637325-Error-Can-t-connect-to-Grammarly-or-Something-went-wrong",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "grammarly.com",
+          "grammarly.io"
+        ]
+      },
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "grammarly.com",
+        "grammarly.io"
+      ]
+    },
+    {
+      "id": "infra-adjust-com",
+      "name": "Adjust",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "adjust.com"
+      ]
+    },
+    {
+      "id": "infra-auth0-com",
+      "name": "Auth0",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "auth0.com"
+      ]
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/intercom"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "intercom.io",
+        "intercomassets.com",
+        "intercomcdn.com"
+      ]
+    },
+    {
+      "id": "jetbrains-ai",
+      "name": "JetBrains AI",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/jetbrains-ai"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "grazie.ai",
+        "jetbrains.ai"
+      ]
+    },
+    {
+      "id": "microsoft-dev",
+      "name": "Microsoft developer services",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/microsoft-dev"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "appcenter.ms"
+      ]
+    },
+    {
+      "id": "microsoft-shared",
+      "name": "Microsoft shared infrastructure",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/microsoft"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "a-msedge.net",
+        "live.net",
+        "microsoft.com",
+        "microsoftapp.net"
+      ]
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "notebooklm.google"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI / ChatGPT",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/openai"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "chatgpt.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai.com"
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/perplexity"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "perplexity.ai",
+        "perplexity.com",
+        "pplx.ai"
+      ]
+    },
+    {
+      "id": "xai",
+      "name": "xAI / Grok",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/xai"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai"
+      ],
+      "domains": [
+        "grok.com",
+        "x.ai"
+      ]
+    },
+    {
+      "id": "anidub",
+      "name": "AniDub",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://anidub.pro/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "anidub.com",
+          "anidub.pro"
+        ]
+      },
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "anidub.com",
+        "anidub.pro"
+      ]
+    },
+    {
+      "id": "anilibria",
+      "name": "AniLibria",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://github.com/anilibria/docs/blob/master/api_v2.md",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "anilibria.tv",
+          "libria.fun"
+        ]
+      },
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "anilibria.tv",
+        "libria.fun"
+      ]
+    },
+    {
+      "id": "domain-animego-org",
+      "name": "animego.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "animego.org"
+      ]
+    },
+    {
+      "id": "domain-animetop-info",
+      "name": "animetop.info",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "animetop.info"
+      ]
+    },
+    {
+      "id": "domain-animevost-org",
+      "name": "animevost.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "animevost.org"
+      ]
+    },
+    {
+      "id": "domain-bato-to",
+      "name": "bato.to",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "bato.to"
+      ]
+    },
+    {
+      "id": "domain-crunchyroll-com",
+      "name": "crunchyroll.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "crunchyroll.com"
+      ]
+    },
+    {
+      "id": "domain-hentaicdn-org",
+      "name": "hentaicdn.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "hentaicdn.org"
+      ]
+    },
+    {
+      "id": "domain-hentailib-me",
+      "name": "hentailib.me",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "hentailib.me"
+      ]
+    },
+    {
+      "id": "domain-jut-su",
+      "name": "jut.su",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "jut.su"
+      ]
+    },
+    {
+      "id": "domain-kara-su",
+      "name": "kara.su",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "kara.su"
+      ]
+    },
+    {
+      "id": "domain-mangahub-ru",
+      "name": "mangahub.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "mangahub.ru"
+      ]
+    },
+    {
+      "id": "domain-mangalib-me",
+      "name": "mangalib.me",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "mangalib.me"
+      ]
+    },
+    {
+      "id": "domain-mangamirai-com",
+      "name": "mangamirai.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "mangamirai.com"
+      ]
+    },
+    {
+      "id": "domain-mangapark-net",
+      "name": "mangapark.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "mangapark.net"
+      ]
+    },
+    {
+      "id": "domain-myanimelist-net",
+      "name": "myanimelist.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "myanimelist.net"
+      ]
+    },
+    {
+      "id": "domain-nyaa-land",
+      "name": "nyaa.land",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "nyaa.land"
+      ]
+    },
+    {
+      "id": "domain-shikimori-one",
+      "name": "shikimori.one",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "shikimori.one"
+      ]
+    },
+    {
+      "id": "domain-solodcdn-com",
+      "name": "solodcdn.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "solodcdn.com"
+      ]
+    },
+    {
+      "id": "domain-tracker-wf",
+      "name": "tracker.wf",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "tracker.wf"
+      ]
+    },
+    {
+      "id": "domain-video-ik-ok-ii-xyz",
+      "name": "video-ik-ok-ii.xyz",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "video-ik-ok-ii.xyz"
+      ]
+    },
+    {
+      "id": "domain-vrv-co",
+      "name": "vrv.co",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "vrv.co"
+      ]
+    },
+    {
+      "id": "domain-yandexwebcache-org",
+      "name": "yandexwebcache.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "yandexwebcache.org"
+      ]
+    },
+    {
+      "id": "domain-yummyanime-tv",
+      "name": "yummyanime.tv",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "yummyanime.tv"
+      ]
+    },
+    {
+      "id": "infra-wstracker-online",
+      "name": "wstracker.online",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "anime",
+      "categories": [
+        "anime",
+        "porn",
+        "torrents"
+      ],
+      "domains": [
+        "wstracker.online"
+      ]
+    },
+    {
+      "id": "kodik",
+      "name": "Kodik",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/kodik"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "kodik-add.com",
+        "kodik-cdn.com",
+        "kodik-storage.com",
+        "kodik.biz",
+        "kodik.info",
+        "kodikapi.com",
+        "kodikdb.com",
+        "kodikplayer.com"
+      ]
+    },
+    {
+      "id": "nyaa",
+      "name": "Nyaa",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/nyaa"
+      ],
+      "category": "anime",
+      "categories": [
+        "anime"
+      ],
+      "domains": [
+        "nyaa.si"
+      ]
+    },
+    {
+      "id": "deviantart",
+      "name": "DeviantArt",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/deviantart"
+      ],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "deviantart.com"
+      ]
+    },
+    {
+      "id": "domain-archiveofourown-org",
+      "name": "archiveofourown.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "archiveofourown.org"
+      ]
+    },
+    {
+      "id": "domain-babook-org",
+      "name": "babook.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "babook.org"
+      ]
+    },
+    {
+      "id": "domain-donmai-us",
+      "name": "donmai.us",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "donmai.us"
+      ]
+    },
+    {
+      "id": "domain-e621-net",
+      "name": "e621.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "e621.net"
+      ]
+    },
+    {
+      "id": "domain-ficbook-net",
+      "name": "ficbook.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "ficbook.net"
+      ]
+    },
+    {
+      "id": "domain-gelbooru-com",
+      "name": "gelbooru.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "gelbooru.com"
+      ]
+    },
+    {
+      "id": "domain-hentaichan-live",
+      "name": "hentaichan.live",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "hentaichan.live"
+      ]
+    },
+    {
+      "id": "domain-infinitenovel-eu",
+      "name": "infinitenovel.eu",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "infinitenovel.eu"
+      ]
+    },
+    {
+      "id": "domain-pixabay-com",
+      "name": "pixabay.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "pixabay.com"
+      ]
+    },
+    {
+      "id": "domain-rulate-ru",
+      "name": "rulate.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "rulate.ru"
+      ]
+    },
+    {
+      "id": "domain-vndb-org",
+      "name": "vndb.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "vndb.org"
+      ]
+    },
+    {
+      "id": "domain-wikiart-org",
+      "name": "wikiart.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "wikiart.org"
+      ]
+    },
+    {
+      "id": "domain-younettranslate-com",
+      "name": "younettranslate.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "younettranslate.com"
+      ]
+    },
+    {
+      "id": "pixiv",
+      "name": "pixiv",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/pixiv"
+      ],
+      "membershipEvidence": {
+        "url": "https://www.pixiv.co.jp/service/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "pastela.app",
+          "vroid.com"
+        ]
+      },
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "ads-pixiv.net",
+        "booth.pm",
+        "fanbox.cc",
+        "pastela.app",
+        "pixiv-recommend.net",
+        "pixiv.co.jp",
+        "pixiv.help",
+        "pixiv.me",
+        "pixiv.net",
+        "pixiv.org",
+        "pixivision.net",
+        "pximg.net",
+        "vroid.com"
+      ]
+    },
+    {
+      "id": "wix",
+      "name": "Wix media",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/wix"
+      ],
+      "category": "art",
+      "categories": [
+        "art"
+      ],
+      "domains": [
+        "wixmp.com"
+      ]
+    },
+    {
+      "id": "domain-porsche-com",
+      "name": "porsche.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "automotive",
+      "categories": [
+        "automotive"
+      ],
+      "domains": [
+        "porsche.com"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/discord"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "dis.gd",
+        "discord-activities.com",
+        "discord.co",
+        "discord.com",
+        "discord.design",
+        "discord.dev",
+        "discord.gg",
+        "discord.gift",
+        "discord.gifts",
+        "discord.media",
+        "discord.new",
+        "discord.store",
+        "discord.tools",
+        "discordactivities.com",
+        "discordapp.com",
+        "discordapp.io",
+        "discordapp.net",
+        "discordcdn.com",
+        "discordmerch.com",
+        "discordpartygames.com",
+        "discordsays.com",
+        "discordstatus.com"
+      ]
+    },
+    {
+      "id": "domain-disboard-org",
+      "name": "disboard.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "disboard.org"
+      ]
+    },
+    {
+      "id": "domain-discord-center",
+      "name": "discord.center",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discord.center"
+      ]
+    },
+    {
+      "id": "domain-discord-me",
+      "name": "discord.me",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discord.me"
+      ]
+    },
+    {
+      "id": "domain-discord-st",
+      "name": "discord.st",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discord.st"
+      ]
+    },
+    {
+      "id": "domain-discordbee-com",
+      "name": "discordbee.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordbee.com"
+      ]
+    },
+    {
+      "id": "domain-discordbotlist-com",
+      "name": "discordbotlist.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordbotlist.com"
+      ]
+    },
+    {
+      "id": "domain-discordexpert-com",
+      "name": "discordexpert.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordexpert.com"
+      ]
+    },
+    {
+      "id": "domain-discordhome-com",
+      "name": "discordhome.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordhome.com"
+      ]
+    },
+    {
+      "id": "domain-discordhub-com",
+      "name": "discordhub.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordhub.com"
+      ]
+    },
+    {
+      "id": "domain-discordinvites-net",
+      "name": "discordinvites.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordinvites.net"
+      ]
+    },
+    {
+      "id": "domain-discordlist-me",
+      "name": "discordlist.me",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordlist.me"
+      ]
+    },
+    {
+      "id": "domain-discordlist-space",
+      "name": "discordlist.space",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordlist.space"
+      ]
+    },
+    {
+      "id": "domain-discords-com",
+      "name": "discords.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discords.com"
+      ]
+    },
+    {
+      "id": "domain-discordservers-com",
+      "name": "discordservers.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordservers.com"
+      ]
+    },
+    {
+      "id": "domain-discordtop-com",
+      "name": "discordtop.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "discordtop.com"
+      ]
+    },
+    {
+      "id": "domain-disforge-com",
+      "name": "disforge.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "disforge.com"
+      ]
+    },
+    {
+      "id": "domain-dyno-gg",
+      "name": "dyno.gg",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "dyno.gg"
+      ]
+    },
+    {
+      "id": "domain-findadiscord-com",
+      "name": "findadiscord.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "findadiscord.com"
+      ]
+    },
+    {
+      "id": "domain-keet-io",
+      "name": "keet.io",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "keet.io"
+      ]
+    },
+    {
+      "id": "domain-mee6-xyz",
+      "name": "mee6.xyz",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "mee6.xyz"
+      ]
+    },
+    {
+      "id": "domain-rakuten-com",
+      "name": "rakuten.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "rakuten.com"
+      ]
+    },
+    {
+      "id": "domain-top-gg",
+      "name": "top.gg",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "top.gg"
+      ]
+    },
+    {
+      "id": "domain-wl-co",
+      "name": "wl.co",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipPolicy": "separate-domain; source attribution is insufficient to merge it with WhatsApp",
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "wl.co"
+      ]
+    },
+    {
+      "id": "domain-zello-com",
+      "name": "zello.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "zello.com"
+      ]
+    },
+    {
+      "id": "fragment",
+      "name": "Fragment",
+      "kind": "independent",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "fragment.com"
+      ]
+    },
+    {
+      "id": "infra-dynect-net",
+      "name": "Dyn DNS",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "dynect.net"
+      ]
+    },
+    {
+      "id": "infra-softlayer-com",
+      "name": "IBM SoftLayer",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "softlayer.com"
+      ]
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/messenger"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "messenger.com"
+      ]
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/signal"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "signal.art",
+        "signal.group",
+        "signal.link",
+        "signal.me",
+        "signal.org",
+        "signal.tube",
+        "whispersystems.org"
+      ]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [
+        "telegram"
+      ],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/telegram"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "cdn-telegram.org",
+        "comments.app",
+        "contest.com",
+        "graph.org",
+        "quiz.directory",
+        "t.me",
+        "tdesktop.com",
+        "telega.one",
+        "telegra.ph",
+        "telegram-cdn.org",
+        "telegram.dog",
+        "telegram.me",
+        "telegram.org",
+        "telegram.space",
+        "telesco.pe",
+        "tg.dev",
+        "tx.me",
+        "usercontent.dev"
+      ]
+    },
+    {
+      "id": "ton",
+      "name": "TON",
+      "kind": "independent",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "ton.org"
+      ]
+    },
+    {
+      "id": "viber",
+      "name": "Viber",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/viber"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "vbcdn.com",
+        "vbcdn.net",
+        "viber.co",
+        "viber.com",
+        "viber.me"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/whatsapp"
+      ],
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "wa.me",
+        "whatsapp.biz",
+        "whatsapp.cc",
+        "whatsapp.com",
+        "whatsapp.info",
+        "whatsapp.net",
+        "whatsapp.org",
+        "whatsapp.tv",
+        "whatsappbrand.com"
+      ]
+    },
+    {
+      "id": "whatsapp-plus",
+      "name": "WhatsApp Plus (third-party)",
+      "kind": "independent",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipStatus": "third-party-bundle",
+      "membershipPolicy": "Third-party bundle is not merged with the similarly named first-party service.",
+      "category": "communication",
+      "categories": [
+        "communication"
+      ],
+      "domains": [
+        "whatsapp-plus.info",
+        "whatsapp-plus.me",
+        "whatsapp-plus.net"
+      ]
+    },
+    {
+      "id": "domain-figma-com",
+      "name": "figma.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "design",
+      "categories": [
+        "design"
+      ],
+      "domains": [
+        "figma.com"
+      ]
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://www.sketch.com/support/troubleshooting/mac-app/network-settings/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "capacitor-incoming-prod.s3.amazonaws.com",
+          "sketch-resources-incoming-live.s3-accelerate.amazonaws.com"
+        ]
+      },
+      "category": "design",
+      "categories": [
+        "design"
+      ],
+      "domains": [
+        "api.prod.sketch.com",
+        "api.sketchapp.com",
+        "capacitor-incoming-prod.s3.amazonaws.com",
+        "capacitor.prod.sketch.com",
+        "download.sketch.com",
+        "download.sketchapp.com",
+        "events.sketch.cloud",
+        "graphql.sketch.cloud",
+        "metrics-collector.prod.sketch.com",
+        "payments.prod.sketch.com",
+        "presence.prod.sketch.com",
+        "resources-live.sketch.cloud",
+        "sketch-resources-incoming-live.s3-accelerate.amazonaws.com",
+        "sketch.com"
+      ]
+    },
+    {
+      "id": "domain-duolingo-com",
+      "name": "duolingo.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "duolingo.com"
+      ]
+    },
+    {
+      "id": "domain-ieee-org",
+      "name": "ieee.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "ieee.org"
+      ]
+    },
+    {
+      "id": "domain-mrakopedia-net",
+      "name": "mrakopedia.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "mrakopedia.net"
+      ]
+    },
+    {
+      "id": "domain-refactoring-guru",
+      "name": "refactoring.guru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "refactoring.guru"
+      ]
+    },
+    {
+      "id": "domain-znanija-com",
+      "name": "znanija.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "znanija.com"
+      ]
+    },
+    {
+      "id": "flibusta",
+      "name": "Flibusta",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "education",
+      "categories": [
+        "education"
+      ],
+      "domains": [
+        "flibusta.is",
+        "flibusta.net"
+      ]
+    },
+    {
+      "id": "bestchange",
+      "name": "BestChange",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/bestchange"
+      ],
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "bestchange.net",
+        "bestchange.ru"
+      ]
+    },
+    {
+      "id": "domain-aave-com",
+      "name": "aave.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "aave.com"
+      ]
+    },
+    {
+      "id": "domain-euler-finance",
+      "name": "euler.finance",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "euler.finance"
+      ]
+    },
+    {
+      "id": "domain-morpho-org",
+      "name": "morpho.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "morpho.org"
+      ]
+    },
+    {
+      "id": "infra-amplitude-com",
+      "name": "Amplitude",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "amplitude.com"
+      ]
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/wise"
+      ],
+      "category": "finance",
+      "categories": [
+        "finance"
+      ],
+      "domains": [
+        "transferwise.com",
+        "wise.com"
+      ]
+    },
+    {
+      "id": "domain-7k-casino",
+      "name": "7k.casino",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "7k.casino"
+      ]
+    },
+    {
+      "id": "domain-aufcasino-com",
+      "name": "aufcasino.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "aufcasino.com"
+      ]
+    },
+    {
+      "id": "domain-casinohype-com",
+      "name": "casinohype.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "casinohype.com"
+      ]
+    },
+    {
+      "id": "domain-cryptobosscasino-com",
+      "name": "cryptobosscasino.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "cryptobosscasino.com"
+      ]
+    },
+    {
+      "id": "domain-hacksawgaming-com",
+      "name": "hacksawgaming.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "hacksawgaming.com"
+      ]
+    },
+    {
+      "id": "domain-unlimcasino-com",
+      "name": "unlimcasino.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "unlimcasino.com"
+      ]
+    },
+    {
+      "id": "vavada",
+      "name": "Vavada",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "gambling",
+      "categories": [
+        "gambling"
+      ],
+      "domains": [
+        "vavada-cdn.net",
+        "vavada.com",
+        "vavada.net"
+      ]
+    },
+    {
+      "id": "chess",
+      "name": "Chess.com",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/chesscom"
+      ],
+      "category": "games",
+      "categories": [
+        "games"
+      ],
+      "domains": [
+        "chess.com",
+        "chesscomfiles.com"
+      ]
+    },
+    {
+      "id": "domain-thelazy-net",
+      "name": "thelazy.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "games",
+      "categories": [
+        "games"
+      ],
+      "domains": [
+        "thelazy.net"
+      ]
+    },
+    {
+      "id": "itch",
+      "name": "itch.io",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/itchio"
+      ],
+      "category": "games",
+      "categories": [
+        "games"
+      ],
+      "domains": [
+        "itch.io",
+        "itch.zone"
+      ]
+    },
+    {
+      "id": "modrinth",
+      "name": "Modrinth",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/modrinth"
+      ],
+      "membershipEvidence": {
+        "url": "https://modrinth.com/hosting",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "modrinth.gg"
+        ]
+      },
+      "category": "games",
+      "categories": [
+        "games"
+      ],
+      "domains": [
+        "modrinth.com",
+        "modrinth.gg"
+      ]
+    },
+    {
+      "id": "nexusmods",
+      "name": "Nexus Mods",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "games",
+      "categories": [
+        "games"
+      ],
+      "domains": [
+        "nexus-cdn.com",
+        "nexusmods.com"
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "Amazon Web Services",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/aws"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai",
+        "hosting-dev",
+        "tools"
+      ],
+      "domains": [
+        "amazonaws.com",
+        "cloudfront.net"
+      ]
+    },
+    {
+      "id": "bitninja",
+      "name": "BitNinja",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "bitninja.com",
+        "bitninja.io"
+      ]
+    },
+    {
+      "id": "domain-cloudlinux-com",
+      "name": "cloudlinux.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "cloudlinux.com"
+      ]
+    },
+    {
+      "id": "domain-godaddy-com",
+      "name": "godaddy.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "godaddy.com"
+      ]
+    },
+    {
+      "id": "domain-hetzner-com",
+      "name": "hetzner.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "hetzner.com"
+      ]
+    },
+    {
+      "id": "domain-namecheap-com",
+      "name": "namecheap.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "namecheap.com"
+      ]
+    },
+    {
+      "id": "domain-ovh-net",
+      "name": "ovh.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "ovh.net"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/github"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai",
+        "hosting-dev"
+      ],
+      "domains": [
+        "github.com",
+        "githubusercontent.com"
+      ]
+    },
+    {
+      "id": "google-shared",
+      "name": "Google shared infrastructure",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/google"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai",
+        "communication",
+        "hosting-dev",
+        "music",
+        "social",
+        "video"
+      ],
+      "domains": [
+        "appspot.com",
+        "cloudfunctions.net",
+        "google.com",
+        "withgoogle.com",
+        "googleapis.com",
+        "1e100.net",
+        "googleusercontent.com",
+        "securepubads.g.doubleclick.net",
+        "gstatic.com",
+        "gvt1.com"
+      ]
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/jetbrains"
+      ],
+      "category": "ai",
+      "categories": [
+        "ai",
+        "hosting-dev"
+      ],
+      "domains": [
+        "intellij.net",
+        "jetbrains.com",
+        "datalore.io",
+        "intellij.com",
+        "intellij.org",
+        "jb.gg",
+        "jetbrains.com.cn",
+        "jetbrains.dev",
+        "jetbrains.net",
+        "jetbrains.org",
+        "jetbrains.ru",
+        "jetbrains.space",
+        "jetbrains.team",
+        "kotl.in",
+        "kotlinconf.com",
+        "kotlinlang.org",
+        "ktor.io",
+        "myjetbrains.com",
+        "talkingkotlin.com"
+      ]
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "kind": "shared",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev",
+        "music"
+      ],
+      "domains": [
+        "getsentry.net",
+        "sentry-cdn.com",
+        "sentry.dev",
+        "sentry.io",
+        "o14818.ingest.sentry.io"
+      ]
+    },
+    {
+      "id": "ubiquiti",
+      "name": "Ubiquiti",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/ubiquiti"
+      ],
+      "category": "hosting-dev",
+      "categories": [
+        "hosting-dev"
+      ],
+      "domains": [
+        "ubnt.com",
+        "ui.com"
+      ]
+    },
+    {
+      "id": "1001tracklists",
+      "name": "1001tracklists",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "1001.tl",
+        "1001tracklists.com",
+        "cdn.1001tracklists.com",
+        "link.1001tracklists.com",
+        "www.1001tracklists.com"
+      ]
+    },
+    {
+      "id": "amazon-ads",
+      "name": "Amazon advertising",
+      "kind": "shared",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "c.amazon-adsystem.com",
+        "s.amazon-adsystem.com"
+      ]
+    },
+    {
+      "id": "anjunabeats",
+      "name": "Anjunabeats",
+      "kind": "service",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "anjunabeats.com",
+        "music.anjunabeats.com"
+      ]
+    },
+    {
+      "id": "apple-podcasts",
+      "name": "Apple Podcasts",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/apple-podcasts"
+      ],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "amp-api.podcasts.apple.com"
+      ]
+    },
+    {
+      "id": "beatport",
+      "name": "Beatport",
+      "kind": "service",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "account.beatport.com",
+        "api.beatport.com",
+        "embed.beatport.com",
+        "geo-media.beatport.com",
+        "geo-samples.beatport.com"
+      ]
+    },
+    {
+      "id": "btloader",
+      "name": "BT Loader",
+      "kind": "shared",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "api.btloader.com",
+        "btloader.com"
+      ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/deezer"
+      ],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "deezer.com",
+        "dzcdn.net"
+      ]
+    },
+    {
+      "id": "domain-cableguys-com",
+      "name": "cableguys.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "cableguys.com"
+      ]
+    },
+    {
+      "id": "domain-dondiablo-com",
+      "name": "dondiablo.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "dondiablo.com"
+      ]
+    },
+    {
+      "id": "domain-futuremusic-com",
+      "name": "futuremusic.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "futuremusic.com"
+      ]
+    },
+    {
+      "id": "domain-labelradar-com",
+      "name": "labelradar.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "labelradar.com"
+      ]
+    },
+    {
+      "id": "domain-last-fm",
+      "name": "last.fm",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "last.fm"
+      ]
+    },
+    {
+      "id": "domain-mixcloud-com",
+      "name": "mixcloud.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "mixcloud.com"
+      ]
+    },
+    {
+      "id": "domain-pdst-fm",
+      "name": "pdst.fm",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "pdst.fm"
+      ]
+    },
+    {
+      "id": "domain-podtrac-com",
+      "name": "podtrac.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "podtrac.com"
+      ]
+    },
+    {
+      "id": "domain-tidal-com",
+      "name": "tidal.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "tidal.com"
+      ]
+    },
+    {
+      "id": "domain-www-djcity-com",
+      "name": "www.djcity.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "www.djcity.com"
+      ]
+    },
+    {
+      "id": "fastly",
+      "name": "Fastly",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/fastly"
+      ],
+      "category": "music",
+      "categories": [
+        "music",
+        "news-media"
+      ],
+      "domains": [
+        "confiant-integrations.global.ssl.fastly.net",
+        "fastly.net"
+      ]
+    },
+    {
+      "id": "infra-ad-delivery-net",
+      "name": "ad-delivery.net",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "ad-delivery.net"
+      ]
+    },
+    {
+      "id": "infra-cdn-privacy-mgmt-com",
+      "name": "Sourcepoint privacy management",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "cdn.privacy-mgmt.com"
+      ]
+    },
+    {
+      "id": "infra-edge-cdn-vitals-com",
+      "name": "cdn-vitals.com",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "edge.cdn-vitals.com"
+      ]
+    },
+    {
+      "id": "itunes",
+      "name": "Apple iTunes",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/itunes"
+      ],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "play-edge.itunes.apple.com",
+        "play.itunes.apple.com"
+      ]
+    },
+    {
+      "id": "megaphone",
+      "name": "Megaphone",
+      "kind": "service",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "feeds.megaphone.fm",
+        "megaphone.fm",
+        "noop.megaphone.fm",
+        "traffic.megaphone.fm"
+      ]
+    },
+    {
+      "id": "metabrainz",
+      "name": "MetaBrainz / MusicBrainz",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/metabrainz"
+      ],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "metabrainz.org",
+        "musicbrainz.org"
+      ]
+    },
+    {
+      "id": "monstercat",
+      "name": "Monstercat",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "monster.cat",
+        "monstercat.com"
+      ]
+    },
+    {
+      "id": "podbean",
+      "name": "Podbean",
+      "kind": "service",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "feed.podbean.com",
+        "mcdn.podbean.com",
+        "podbean.com"
+      ]
+    },
+    {
+      "id": "pub-network",
+      "name": "pub.network",
+      "kind": "shared",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "a.pub.network",
+        "b.pub.network",
+        "c.pub.network",
+        "d.pub.network"
+      ]
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/soundcloud"
+      ],
+      "membershipEvidence": {
+        "url": "https://snd.sc/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "snd.sc"
+        ]
+      },
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "snd.sc",
+        "sndcdn.com",
+        "soundcloud.cloud",
+        "soundcloud.com"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/spotify"
+      ],
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "byspotify.com",
+        "pscdn.co",
+        "scdn.co",
+        "spoti.fi",
+        "spotify-everywhere.com",
+        "spotify.com",
+        "spotify.design",
+        "spotifycdn.com",
+        "spotifycdn.net",
+        "spotifycharts.com",
+        "spotifycodes.com",
+        "spotifyforbrands.com",
+        "spotifyjobs.com"
+      ]
+    },
+    {
+      "id": "megaphone-podcast-delivery",
+      "name": "Megaphone podcast delivery",
+      "kind": "independent",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipPolicy": "Podcast delivery endpoints are a separate routing unit; do not infer that they are required for every Spotify request.",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "dcs-spotify.megaphone.fm",
+        "dcs-spotify.megaphone.fm.akamaized.net",
+        "spotify-edge.megaphone.fm"
+      ]
+    },
+    {
+      "id": "thisisdistorted",
+      "name": "This Is Distorted",
+      "kind": "service",
+      "grouping": "dns-tree",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "music",
+      "categories": [
+        "music"
+      ],
+      "domains": [
+        "audio.thisisdistorted.com",
+        "distorted-dev.s3.amazonaws.com",
+        "portal-api.thisisdistorted.com",
+        "thisisdistorted.com"
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/bbc"
+      ],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "bbc.co.uk",
+        "bbc.com",
+        "bbci.co.uk"
+      ]
+    },
+    {
+      "id": "domain-agents-media",
+      "name": "agents.media",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "agents.media"
+      ]
+    },
+    {
+      "id": "domain-agentura-ru",
+      "name": "agentura.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "agentura.ru"
+      ]
+    },
+    {
+      "id": "domain-bellingcat-com",
+      "name": "bellingcat.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "bellingcat.com"
+      ]
+    },
+    {
+      "id": "domain-cherta-media",
+      "name": "cherta.media",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "cherta.media"
+      ]
+    },
+    {
+      "id": "domain-colta-ru",
+      "name": "colta.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "colta.ru"
+      ]
+    },
+    {
+      "id": "domain-dept-one",
+      "name": "dept.one",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "dept.one"
+      ]
+    },
+    {
+      "id": "domain-doxa-team",
+      "name": "doxa.team",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "doxa.team"
+      ]
+    },
+    {
+      "id": "domain-dw-com",
+      "name": "dw.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "dw.com"
+      ]
+    },
+    {
+      "id": "domain-echofm-online",
+      "name": "echofm.online",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "echofm.online"
+      ]
+    },
+    {
+      "id": "domain-ehorussia-com",
+      "name": "ehorussia.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "ehorussia.com"
+      ]
+    },
+    {
+      "id": "domain-ej-ru",
+      "name": "ej.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "ej.ru"
+      ]
+    },
+    {
+      "id": "domain-euronews-com",
+      "name": "euronews.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "euronews.com"
+      ]
+    },
+    {
+      "id": "domain-exler-ru",
+      "name": "exler.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "exler.ru"
+      ]
+    },
+    {
+      "id": "domain-golosameriki-com",
+      "name": "golosameriki.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "golosameriki.com"
+      ]
+    },
+    {
+      "id": "domain-gordonua-com",
+      "name": "gordonua.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "gordonua.com"
+      ]
+    },
+    {
+      "id": "domain-gulagu-net",
+      "name": "gulagu.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "gulagu.net"
+      ]
+    },
+    {
+      "id": "domain-holod-media",
+      "name": "holod.media",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "holod.media"
+      ]
+    },
+    {
+      "id": "domain-hrw-org",
+      "name": "hrw.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "hrw.org"
+      ]
+    },
+    {
+      "id": "domain-ill-in-ua",
+      "name": "ill.in.ua",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "ill.in.ua"
+      ]
+    },
+    {
+      "id": "domain-kasparov-ru",
+      "name": "kasparov.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "kasparov.ru"
+      ]
+    },
+    {
+      "id": "domain-kavkaz-uzel-eu",
+      "name": "kavkaz-uzel.eu",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "kavkaz-uzel.eu"
+      ]
+    },
+    {
+      "id": "domain-korrespondent-net",
+      "name": "korrespondent.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "korrespondent.net"
+      ]
+    },
+    {
+      "id": "domain-memohrc-org",
+      "name": "memohrc.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "memohrc.org"
+      ]
+    },
+    {
+      "id": "domain-memopzk-org",
+      "name": "memopzk.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "memopzk.org"
+      ]
+    },
+    {
+      "id": "domain-memorialcenter-org",
+      "name": "memorialcenter.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "memorialcenter.org"
+      ]
+    },
+    {
+      "id": "domain-moscowtimes-ru",
+      "name": "moscowtimes.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "moscowtimes.ru"
+      ]
+    },
+    {
+      "id": "domain-navalny-com",
+      "name": "navalny.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "navalny.com"
+      ]
+    },
+    {
+      "id": "domain-newtimes-ru",
+      "name": "newtimes.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "newtimes.ru"
+      ]
+    },
+    {
+      "id": "domain-novayagazeta-eu",
+      "name": "novayagazeta.eu",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "novayagazeta.eu"
+      ]
+    },
+    {
+      "id": "domain-novayagazeta-ru",
+      "name": "novayagazeta.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "novayagazeta.ru"
+      ]
+    },
+    {
+      "id": "domain-polit-ru",
+      "name": "polit.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "polit.ru"
+      ]
+    },
+    {
+      "id": "domain-proekt-media",
+      "name": "proekt.media",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "proekt.media"
+      ]
+    },
+    {
+      "id": "domain-prostovpn-org",
+      "name": "prostovpn.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "prostovpn.org"
+      ]
+    },
+    {
+      "id": "domain-semnasem-org",
+      "name": "semnasem.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "semnasem.org"
+      ]
+    },
+    {
+      "id": "domain-t-s-news",
+      "name": "t-s.news",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "t-s.news"
+      ]
+    },
+    {
+      "id": "domain-tayga-info",
+      "name": "tayga.info",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "tayga.info"
+      ]
+    },
+    {
+      "id": "domain-the-village-ru",
+      "name": "the-village.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "the-village.ru"
+      ]
+    },
+    {
+      "id": "domain-thetruestory-news",
+      "name": "thetruestory.news",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "thetruestory.news"
+      ]
+    },
+    {
+      "id": "domain-unian-net",
+      "name": "unian.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "unian.net"
+      ]
+    },
+    {
+      "id": "domain-verstka-media",
+      "name": "verstka.media",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "verstka.media"
+      ]
+    },
+    {
+      "id": "domain-vot-tak-tv",
+      "name": "vot-tak.tv",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "vot-tak.tv"
+      ]
+    },
+    {
+      "id": "istories",
+      "name": "Important Stories",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "important-stories.com",
+        "istories.media"
+      ]
+    },
+    {
+      "id": "mediazona",
+      "name": "Mediazona",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://mediazona.ca/news/2022/03/20/blokirovka",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "mediazona.ca",
+          "zona.media"
+        ]
+      },
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "mediazona.ca",
+        "zona.media"
+      ]
+    },
+    {
+      "id": "meduza",
+      "name": "Meduza",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://meduza.io/static/ads/mediakit-rus.pdf",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "mdza.io",
+          "meduza.io"
+        ]
+      },
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "mdza.io",
+        "meduza.io"
+      ]
+    },
+    {
+      "id": "ovdinfo",
+      "name": "OVD-Info",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://ovd.info/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "ovd.info",
+          "ovdinfo.legal",
+          "ovdinfo.org"
+        ]
+      },
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "ovd.info",
+        "ovdinfo.legal",
+        "ovdinfo.org"
+      ]
+    },
+    {
+      "id": "paper",
+      "name": "Bumaga",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "paperagency.team",
+        "paperpaper.ru",
+        "papersupport.ru"
+      ]
+    },
+    {
+      "id": "rferl",
+      "name": "Radio Free Europe / Radio Liberty",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/rferl"
+      ],
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "currenttime.tv",
+        "krymr.com",
+        "radiosvoboda.org",
+        "svoboda.org"
+      ]
+    },
+    {
+      "id": "theinsider",
+      "name": "The Insider",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://theins.ru/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "theins.press",
+          "theins.ru"
+        ]
+      },
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "theins.press",
+        "theins.ru"
+      ]
+    },
+    {
+      "id": "tvrain",
+      "name": "TV Rain",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://tvrain.tv/news/sajt_dozhdja_opjat_rabotaet-549344/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "tvrain.ru",
+          "tvrain.tv"
+        ]
+      },
+      "category": "news-media",
+      "categories": [
+        "news-media"
+      ],
+      "domains": [
+        "tvrain.ru",
+        "tvrain.tv"
+      ]
+    },
+    {
+      "id": "domain-beeg-com",
+      "name": "beeg.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "beeg.com"
+      ]
+    },
+    {
+      "id": "domain-externulls-com",
+      "name": "externulls.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "externulls.com"
+      ]
+    },
+    {
+      "id": "domain-f95zone-to",
+      "name": "f95zone.to",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "f95zone.to"
+      ]
+    },
+    {
+      "id": "domain-hanime-tv",
+      "name": "hanime.tv",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "hanime.tv"
+      ]
+    },
+    {
+      "id": "domain-hqporner-com",
+      "name": "hqporner.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "hqporner.com"
+      ]
+    },
+    {
+      "id": "domain-kemono-cr",
+      "name": "kemono.cr",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "kemono.cr"
+      ]
+    },
+    {
+      "id": "domain-plab-site",
+      "name": "plab.site",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "plab.site"
+      ]
+    },
+    {
+      "id": "domain-pornolab-net",
+      "name": "pornolab.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "pornolab.net"
+      ]
+    },
+    {
+      "id": "domain-reddxxx-com",
+      "name": "reddxxx.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "reddxxx.com"
+      ]
+    },
+    {
+      "id": "domain-redgifs-com",
+      "name": "redgifs.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "redgifs.com"
+      ]
+    },
+    {
+      "id": "domain-rule34-xxx",
+      "name": "rule34.xxx",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "rule34.xxx"
+      ]
+    },
+    {
+      "id": "domain-strpst-com",
+      "name": "strpst.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "strpst.com"
+      ]
+    },
+    {
+      "id": "pornhub",
+      "name": "Pornhub",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/pornhub"
+      ],
+      "probeDomains": [
+        "pornhub.com"
+      ],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "phncdn.com",
+        "pornhub.com"
+      ]
+    },
+    {
+      "id": "redtube",
+      "name": "RedTube",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/redtube"
+      ],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "rdtcdn.com",
+        "redtube.com"
+      ]
+    },
+    {
+      "id": "xhamster",
+      "name": "xHamster",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/xhamster"
+      ],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "xhamster.com",
+        "xhamsterlive.com",
+        "xhcdn.com"
+      ]
+    },
+    {
+      "id": "xnxx",
+      "name": "XNXX",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/xnxx"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "xnxx-cdn.com",
+        "xnxx-ru.com",
+        "xnxx.com"
+      ]
+    },
+    {
+      "id": "xvideos",
+      "name": "XVideos",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/xvideos"
+      ],
+      "category": "porn",
+      "categories": [
+        "porn"
+      ],
+      "domains": [
+        "xv-ru.com",
+        "xvideos-cdn.com",
+        "xvideos.com"
+      ]
+    },
+    {
+      "id": "akamai",
+      "name": "Akamai",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/akamai"
+      ],
+      "category": "music",
+      "categories": [
+        "music",
+        "social"
+      ],
+      "domains": [
+        "a1657.w27.akamai.net",
+        "akamaized.net",
+        "akamai.net"
+      ]
+    },
+    {
+      "id": "bytedance-shared",
+      "name": "ByteDance shared infrastructure",
+      "kind": "shared",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/bytedance"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "byteimg.com",
+        "byteoversea.com",
+        "byteoversea.net",
+        "ibytedtos.com",
+        "ibyteimg.com",
+        "pstatp.com"
+      ]
+    },
+    {
+      "id": "domain-4pda-to",
+      "name": "4pda.to",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "4pda.to"
+      ]
+    },
+    {
+      "id": "domain-atomile-com",
+      "name": "atomile.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "atomile.com"
+      ]
+    },
+    {
+      "id": "domain-cwer-ws",
+      "name": "cwer.ws",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "cwer.ws"
+      ]
+    },
+    {
+      "id": "domain-musemuse-cn",
+      "name": "musemuse.cn",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "musemuse.cn"
+      ]
+    },
+    {
+      "id": "domain-rocket-cdn-com",
+      "name": "rocket-cdn.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "rocket-cdn.com"
+      ]
+    },
+    {
+      "id": "domain-ru-board-com",
+      "name": "ru-board.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "ru-board.com"
+      ]
+    },
+    {
+      "id": "domain-worldfcdn-com",
+      "name": "worldfcdn.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "worldfcdn.com"
+      ]
+    },
+    {
+      "id": "domain-worldfcdn2-com",
+      "name": "worldfcdn2.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "worldfcdn2.com"
+      ]
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/facebook"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "communication",
+      "categories": [
+        "communication",
+        "social"
+      ],
+      "domains": [
+        "facebook.com",
+        "fbcdn.net",
+        "fbsbx.com",
+        "facebook.com.es",
+        "facebook.com.vn",
+        "facebook.fr",
+        "facebook.net",
+        "fb.com",
+        "fb.me",
+        "fbcdn.com",
+        "tfbnw.net",
+        "thefacebook.com"
+      ]
+    },
+    {
+      "id": "hornet",
+      "name": "Hornet",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "gethornet.com",
+        "hornet-live.com",
+        "hornet.com",
+        "insidehornet.com"
+      ]
+    },
+    {
+      "id": "infra-adsbynimbus-com",
+      "name": "Nimbus advertising",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "adsbynimbus.com"
+      ]
+    },
+    {
+      "id": "infra-bytetcdn-com",
+      "name": "ByteDance CDN (unverified)",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "bytetcdn.com"
+      ]
+    },
+    {
+      "id": "infra-ipstatp-com",
+      "name": "ByteDance telemetry (unverified)",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "ipstatp.com"
+      ]
+    },
+    {
+      "id": "infra-isnssdk-com",
+      "name": "ByteDance SDK (unverified)",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "isnssdk.com"
+      ]
+    },
+    {
+      "id": "infra-sgsnssdk-com",
+      "name": "ByteDance SDK (unverified)",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "sgsnssdk.com"
+      ]
+    },
+    {
+      "id": "infra-tlivecdn-com",
+      "name": "Tencent live CDN",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "tlivecdn.com"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/instagram"
+      ],
+      "probeDomains": [
+        "instagram.com"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "cdninstagram.com",
+        "ig.me",
+        "instagram.com"
+      ]
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/linkedin"
+      ],
+      "probeDomains": [
+        "linkedin.com"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "licdn.com",
+        "linkedin.com"
+      ]
+    },
+    {
+      "id": "meetme",
+      "name": "MeetMe",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "meetme.com",
+        "meetmecdna.com"
+      ]
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/patreon"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "patreon.com",
+        "patreonusercontent.com"
+      ]
+    },
+    {
+      "id": "quora",
+      "name": "Quora",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/quora"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "quora.com",
+        "quoracdn.net"
+      ]
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/snap"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "addlive.io",
+        "feelinsonice.com",
+        "sc-cdn.net",
+        "sc-corp.net",
+        "sc-gw.com",
+        "sc-jpl.com",
+        "sc-prod.net",
+        "sc-static.net",
+        "snap-dev.net",
+        "snap.com",
+        "snapads.com",
+        "snapchat.com",
+        "snapkit.com",
+        "snapmap.com",
+        "snapmap.org",
+        "snapmaps.com"
+      ]
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/tiktok"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "account-tiktok.com",
+        "muscdn.com",
+        "musical.ly",
+        "tiktok.com",
+        "tiktokcdn-eu.com",
+        "tiktokcdn-in.com",
+        "tiktokcdn-us.com",
+        "tiktokcdn.com",
+        "tiktokd.org",
+        "tiktokglobalshop.com",
+        "tiktokv.com",
+        "tiktokv.eu",
+        "tiktokw.eu",
+        "ttlivecdn.com",
+        "ttoversea.net",
+        "ttoverseaus.net",
+        "ttwstatic.com"
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "X / Twitter",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/twitter"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "t.co",
+        "tweetdeck.com",
+        "twimg.com",
+        "twitter.com",
+        "x.com"
+      ]
+    },
+    {
+      "id": "autodesk",
+      "name": "Autodesk",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/autodesk"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "autocad.com",
+        "autodesk.ae",
+        "autodesk.be",
+        "autodesk.com",
+        "autodesk.eu",
+        "autodesk.net",
+        "autodesk360.com"
+      ]
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp / 37signals",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://github.com/basecamp/bc-api",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "37signals.com",
+          "basecamp.com",
+          "basecampapi.com"
+        ]
+      },
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "37signals.com",
+        "basecamp.com",
+        "basecampapi.com"
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://www.canva.dev/docs/apps/previewing-apps/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "canva-apps.com",
+          "canva.com"
+        ]
+      },
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "canva-apps.com",
+        "canva.com"
+      ]
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "capcut.com",
+        "capcutapi.com",
+        "capcutapi.us",
+        "capcutcdn-us.com",
+        "capcutstatic.com"
+      ]
+    },
+    {
+      "id": "domain-10minutemail-com",
+      "name": "10minutemail.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "10minutemail.com"
+      ]
+    },
+    {
+      "id": "domain-9proxy-com",
+      "name": "9proxy.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "9proxy.com"
+      ]
+    },
+    {
+      "id": "domain-aida64-com",
+      "name": "aida64.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "aida64.com"
+      ]
+    },
+    {
+      "id": "domain-amd-online",
+      "name": "amd.online",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "amd.online"
+      ]
+    },
+    {
+      "id": "domain-anydesk-com",
+      "name": "anydesk.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "anydesk.com"
+      ]
+    },
+    {
+      "id": "domain-beeble-com",
+      "name": "beeble.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "beeble.com"
+      ]
+    },
+    {
+      "id": "domain-chilipiper-com",
+      "name": "chilipiper.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "chilipiper.com"
+      ]
+    },
+    {
+      "id": "domain-clickup-com",
+      "name": "clickup.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "clickup.com"
+      ]
+    },
+    {
+      "id": "domain-demand-supply",
+      "name": "demand.supply",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "demand.supply"
+      ]
+    },
+    {
+      "id": "domain-garmin-com",
+      "name": "garmin.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "garmin.com"
+      ]
+    },
+    {
+      "id": "domain-linktr-ee",
+      "name": "linktr.ee",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "linktr.ee"
+      ]
+    },
+    {
+      "id": "domain-make-com",
+      "name": "make.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "make.com"
+      ]
+    },
+    {
+      "id": "domain-medium-com",
+      "name": "medium.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "medium.com"
+      ]
+    },
+    {
+      "id": "domain-notepad-plus-plus-org",
+      "name": "notepad-plus-plus.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "notepad-plus-plus.org"
+      ]
+    },
+    {
+      "id": "domain-prismic-io",
+      "name": "prismic.io",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "prismic.io"
+      ]
+    },
+    {
+      "id": "domain-proxy6-net",
+      "name": "proxy6.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "proxy6.net"
+      ]
+    },
+    {
+      "id": "domain-proxyline-net",
+      "name": "proxyline.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "proxyline.net"
+      ]
+    },
+    {
+      "id": "domain-ralphlauren-eu",
+      "name": "ralphlauren.eu",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "ralphlauren.eu"
+      ]
+    },
+    {
+      "id": "domain-sankakucomplex-com",
+      "name": "sankakucomplex.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "sankakucomplex.com"
+      ]
+    },
+    {
+      "id": "domain-sensortower-com",
+      "name": "sensortower.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "sensortower.com"
+      ]
+    },
+    {
+      "id": "domain-strava-com",
+      "name": "strava.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "strava.com"
+      ]
+    },
+    {
+      "id": "domain-trainingpeaks-com",
+      "name": "trainingpeaks.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "trainingpeaks.com"
+      ]
+    },
+    {
+      "id": "domain-web-platform-io",
+      "name": "web-platform.io",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "web-platform.io"
+      ]
+    },
+    {
+      "id": "domain-whoop-com",
+      "name": "whoop.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "whoop.com"
+      ]
+    },
+    {
+      "id": "fastpic",
+      "name": "FastPic",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://fastpic.ru/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "fastpic.org",
+          "fastpic.ru"
+        ]
+      },
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "fastpic.org",
+        "fastpic.ru"
+      ]
+    },
+    {
+      "id": "fatsecret",
+      "name": "FatSecret",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "fatsecret.com",
+        "ftscrt.com"
+      ]
+    },
+    {
+      "id": "fmhy",
+      "name": "FMHY",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://fmhy.net/posts/nov-2024",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "fmhy.lol",
+          "fmhy.net"
+        ]
+      },
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "fmhy.lol",
+        "fmhy.net"
+      ]
+    },
+    {
+      "id": "infra-backblazeb2-com",
+      "name": "Backblaze B2",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "backblazeb2.com"
+      ]
+    },
+    {
+      "id": "infra-onetrust-com",
+      "name": "OneTrust",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools",
+        "video"
+      ],
+      "domains": [
+        "onetrust.com"
+      ]
+    },
+    {
+      "id": "infra-pubnubapi-com",
+      "name": "PubNub",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "pubnubapi.com"
+      ]
+    },
+    {
+      "id": "infra-qualtrics-com",
+      "name": "Qualtrics",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "qualtrics.com"
+      ]
+    },
+    {
+      "id": "infra-splunkcloud-com",
+      "name": "Splunk Cloud",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "splunkcloud.com"
+      ]
+    },
+    {
+      "id": "infra-zendesk-com",
+      "name": "Zendesk",
+      "kind": "shared",
+      "grouping": "independent-provider",
+      "ipv4Lists": [],
+      "membershipPolicy": "independent-infrastructure",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "zendesk.com"
+      ]
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://help.miro.com/hc/en-us/articles/20857452690706-Miro-domains-reference",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "miro.com",
+          "mirostatic.com"
+        ]
+      },
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "miro.com",
+        "mirostatic.com"
+      ]
+    },
+    {
+      "id": "myheritage",
+      "name": "MyHeritage",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "myheritage.com",
+        "myheritage.ee"
+      ]
+    },
+    {
+      "id": "naukri",
+      "name": "Naukri",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "naukimg.com",
+        "naukri.com"
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/notion"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "probeDomains": [
+        "notion.so",
+        "notion.com"
+      ],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "hellonotion.com",
+        "notion-media.com",
+        "notion-static.com",
+        "notion.ai",
+        "notion.com",
+        "notion.dev",
+        "notion.site",
+        "notion.so",
+        "notionup.com",
+        "notionusercontent.com"
+      ]
+    },
+    {
+      "id": "proton",
+      "name": "Proton",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/protonmail"
+      ],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "proton.me",
+        "protonmail.com"
+      ]
+    },
+    {
+      "id": "tuta",
+      "name": "Tuta",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/tutanota"
+      ],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "tuta.com",
+        "tutanota.com"
+      ]
+    },
+    {
+      "id": "wikidot",
+      "name": "Wikidot",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/wikidot"
+      ],
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "wdfiles.com",
+        "wikidot.com"
+      ]
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "tools",
+      "categories": [
+        "tools"
+      ],
+      "domains": [
+        "zapier-deployment.com",
+        "zapier.com"
+      ]
+    },
+    {
+      "id": "booktracker",
+      "name": "BookTracker",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://booktracker.org/viewtopic.php?t=87717",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "booktracker.org",
+          "booktracker.work"
+        ]
+      },
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "booktracker.org",
+        "booktracker.work"
+      ]
+    },
+    {
+      "id": "domain-1337x-to",
+      "name": "1337x.to",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "1337x.to"
+      ]
+    },
+    {
+      "id": "domain-eu-org",
+      "name": "eu.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "eu.org"
+      ]
+    },
+    {
+      "id": "domain-filmitorrent-net",
+      "name": "filmitorrent.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "filmitorrent.net"
+      ]
+    },
+    {
+      "id": "domain-freetp-org",
+      "name": "freetp.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "freetp.org"
+      ]
+    },
+    {
+      "id": "domain-newstudio-tv",
+      "name": "newstudio.tv",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "newstudio.tv"
+      ]
+    },
+    {
+      "id": "domain-rustorka-com",
+      "name": "rustorka.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "rustorka.com"
+      ]
+    },
+    {
+      "id": "domain-stealth-si",
+      "name": "stealth.si",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "stealth.si"
+      ]
+    },
+    {
+      "id": "domain-torrent-by",
+      "name": "torrent.by",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "torrent.by"
+      ]
+    },
+    {
+      "id": "domain-ysagin-top",
+      "name": "ysagin.top",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "ysagin.top"
+      ]
+    },
+    {
+      "id": "kinozal",
+      "name": "Kinozal",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "torrents",
+      "categories": [
+        "torrents",
+        "video"
+      ],
+      "domains": [
+        "kinozal.me",
+        "kinozal.guru",
+        "kinozal.tv"
+      ]
+    },
+    {
+      "id": "nnmclub",
+      "name": "NNM Club",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://nnmclub.to/forum/viewtopic.php?start=930&t=1184022",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "nnmclub.to",
+          "nnmstatic.win"
+        ]
+      },
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "nnmclub.to",
+        "nnmstatic.win"
+      ]
+    },
+    {
+      "id": "piratebay",
+      "name": "The Pirate Bay",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/piratebay"
+      ],
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "thepiratebay.org",
+        "torrindex.net"
+      ]
+    },
+    {
+      "id": "rutor",
+      "name": "Rutor",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipEvidence": {
+        "url": "https://rutor.is/",
+        "checkedAt": "2026-09-08",
+        "scope": [
+          "rutor.info",
+          "rutor.is",
+          "rutor.org"
+        ]
+      },
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "rutor.info",
+        "rutor.is",
+        "rutor.org"
+      ]
+    },
+    {
+      "id": "rutracker",
+      "name": "RuTracker",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/rutracker"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "torrents",
+      "categories": [
+        "torrents"
+      ],
+      "domains": [
+        "rutracker.cc",
+        "rutracker.net",
+        "rutracker.org",
+        "rutracker.ru",
+        "rutracker.wiki",
+        "rutrk.org",
+        "t-ru.org"
+      ]
+    },
+    {
+      "id": "domain-11cdn-org",
+      "name": "11cdn.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "11cdn.org"
+      ]
+    },
+    {
+      "id": "domain-bigsv-ru",
+      "name": "bigsv.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "bigsv.ru"
+      ]
+    },
+    {
+      "id": "domain-cdn32-lol",
+      "name": "cdn32.lol",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "cdn32.lol"
+      ]
+    },
+    {
+      "id": "domain-cdntogo-net",
+      "name": "cdntogo.net",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "cdntogo.net"
+      ]
+    },
+    {
+      "id": "domain-daramalive-life",
+      "name": "daramalive.life",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "daramalive.life"
+      ]
+    },
+    {
+      "id": "domain-doramy-club",
+      "name": "doramy.club",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "doramy.club"
+      ]
+    },
+    {
+      "id": "domain-femeretes-org",
+      "name": "femeretes.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "femeretes.org"
+      ]
+    },
+    {
+      "id": "domain-kinobase-org",
+      "name": "kinobase.org",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "kinobase.org"
+      ]
+    },
+    {
+      "id": "domain-r2---sn--n5pbvoj5caxu8-nboz-google",
+      "name": "r2---sn--n5pbvoj5caxu8-nboz.google",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "r2---sn--n5pbvoj5caxu8-nboz.google"
+      ]
+    },
+    {
+      "id": "domain-r3---sn--h557snl6-googlevideo",
+      "name": "r3---sn--h557snl6.googlevideo",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "r3---sn--h557snl6.googlevideo"
+      ]
+    },
+    {
+      "id": "domain-returnyoutubedislikeapi-com",
+      "name": "returnyoutubedislikeapi.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "returnyoutubedislikeapi.com"
+      ]
+    },
+    {
+      "id": "domain-seasonvar-ru",
+      "name": "seasonvar.ru",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "seasonvar.ru"
+      ]
+    },
+    {
+      "id": "domain-serv01001-xyz",
+      "name": "serv01001.xyz",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "serv01001.xyz"
+      ]
+    },
+    {
+      "id": "domain-traffmovie-com",
+      "name": "traffmovie.com",
+      "kind": "independent",
+      "grouping": "independent-domain",
+      "ipv4Lists": [],
+      "membershipStatus": "standalone",
+      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "traffmovie.com"
+      ]
+    },
+    {
+      "id": "filmix",
+      "name": "Filmix",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "filmix.biz",
+        "filmix.fm"
+      ]
+    },
+    {
+      "id": "hdrezka",
+      "name": "HDRezka",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/hdrezka"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "hdrezka.ac",
+        "hdrezka.ag",
+        "hdrezka.cm",
+        "hdrezka.la",
+        "rezka.ag",
+        "rezka.my",
+        "rezkify.com",
+        "statichdrezka.ac"
+      ]
+    },
+    {
+      "id": "kinopub",
+      "name": "KinoPub",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/kinopub"
+      ],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "kino.pub",
+        "kino.watch"
+      ]
+    },
+    {
+      "id": "kinovod",
+      "name": "Kinovod",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "kinovod.net",
+        "kinovod.pro"
+      ]
+    },
+    {
+      "id": "lostfilm",
+      "name": "LostFilm",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "lostfilm.download",
+        "lostfilm.run",
+        "lostfilm.tv",
+        "lostfilm.win"
+      ]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/netflix"
+      ],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "fast.com",
+        "netflix.ca",
+        "netflix.com",
+        "netflix.com.au",
+        "netflix.net",
+        "netflixdnstest1.com",
+        "netflixdnstest10.com",
+        "netflixdnstest2.com",
+        "netflixdnstest3.com",
+        "netflixdnstest4.com",
+        "netflixdnstest5.com",
+        "netflixdnstest6.com",
+        "netflixdnstest7.com",
+        "netflixdnstest8.com",
+        "netflixdnstest9.com",
+        "netflixinvestor.com",
+        "netflixstudios.com",
+        "netflixtechblog.com",
+        "nflxext.com",
+        "nflximg.com",
+        "nflximg.net",
+        "nflxsearch.net",
+        "nflxso.net",
+        "nflxvideo.net"
+      ]
+    },
+    {
+      "id": "stremio",
+      "name": "Stremio",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "strem.io",
+        "stremio.com",
+        "stremio.net",
+        "stremio.one"
+      ]
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/tmdb"
+      ],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "themoviedb.org",
+        "tmdb.org"
+      ]
+    },
+    {
+      "id": "voidboost",
+      "name": "Voidboost",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "voidboost.cc",
+        "voidboost.com",
+        "voidboost.in",
+        "voidboost.one",
+        "voidnetwork.cloud"
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/youtube"
+      ],
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "ggpht.cn",
+        "ggpht.com",
+        "googlevideo.com",
+        "withyoutube.com",
+        "youtu.be",
+        "youtube-nocookie.com",
+        "youtube.ae",
+        "youtube.al",
+        "youtube.am",
+        "youtube.at",
+        "youtube.az",
+        "youtube.ba",
+        "youtube.be",
+        "youtube.bg",
+        "youtube.bh",
+        "youtube.bo",
+        "youtube.by",
+        "youtube.ca",
+        "youtube.cat",
+        "youtube.ch",
+        "youtube.cl",
+        "youtube.co",
+        "youtube.co.ae",
+        "youtube.co.at",
+        "youtube.co.cr",
+        "youtube.co.hu",
+        "youtube.co.id",
+        "youtube.co.il",
+        "youtube.co.in",
+        "youtube.co.jp",
+        "youtube.co.ke",
+        "youtube.co.kr",
+        "youtube.co.ma",
+        "youtube.co.nz",
+        "youtube.co.th",
+        "youtube.co.tz",
+        "youtube.co.ug",
+        "youtube.co.uk",
+        "youtube.co.ve",
+        "youtube.co.za",
+        "youtube.co.zw",
+        "youtube.com",
+        "youtube.com.ar",
+        "youtube.com.au",
+        "youtube.com.az",
+        "youtube.com.bd",
+        "youtube.com.bh",
+        "youtube.com.bo",
+        "youtube.com.br",
+        "youtube.com.by",
+        "youtube.com.co",
+        "youtube.com.do",
+        "youtube.com.ec",
+        "youtube.com.ee",
+        "youtube.com.eg",
+        "youtube.com.es",
+        "youtube.com.gh",
+        "youtube.com.gr",
+        "youtube.com.gt",
+        "youtube.com.hk",
+        "youtube.com.hn",
+        "youtube.com.hr",
+        "youtube.com.jm",
+        "youtube.com.jo",
+        "youtube.com.kw",
+        "youtube.com.lb",
+        "youtube.com.lv",
+        "youtube.com.ly",
+        "youtube.com.mk",
+        "youtube.com.mt",
+        "youtube.com.mx",
+        "youtube.com.my",
+        "youtube.com.ng",
+        "youtube.com.ni",
+        "youtube.com.om",
+        "youtube.com.pa",
+        "youtube.com.pe",
+        "youtube.com.ph",
+        "youtube.com.pk",
+        "youtube.com.pt",
+        "youtube.com.py",
+        "youtube.com.qa",
+        "youtube.com.ro",
+        "youtube.com.sa",
+        "youtube.com.sg",
+        "youtube.com.sv",
+        "youtube.com.tn",
+        "youtube.com.tr",
+        "youtube.com.tw",
+        "youtube.com.ua",
+        "youtube.com.uy",
+        "youtube.com.ve",
+        "youtube.cr",
+        "youtube.cz",
+        "youtube.de",
+        "youtube.dk",
+        "youtube.ee",
+        "youtube.es",
+        "youtube.fi",
+        "youtube.fr",
+        "youtube.ge",
+        "youtube.gr",
+        "youtube.gt",
+        "youtube.hk",
+        "youtube.hr",
+        "youtube.hu",
+        "youtube.ie",
+        "youtube.in",
+        "youtube.iq",
+        "youtube.is",
+        "youtube.it",
+        "youtube.jo",
+        "youtube.jp",
+        "youtube.kr",
+        "youtube.kz",
+        "youtube.la",
+        "youtube.lk",
+        "youtube.lt",
+        "youtube.lu",
+        "youtube.lv",
+        "youtube.ly",
+        "youtube.ma",
+        "youtube.md",
+        "youtube.me",
+        "youtube.mk",
+        "youtube.mn",
+        "youtube.mx",
+        "youtube.my",
+        "youtube.ng",
+        "youtube.ni",
+        "youtube.nl",
+        "youtube.no",
+        "youtube.pa",
+        "youtube.pe",
+        "youtube.ph",
+        "youtube.pk",
+        "youtube.pl",
+        "youtube.pr",
+        "youtube.pt",
+        "youtube.qa",
+        "youtube.ro",
+        "youtube.rs",
+        "youtube.ru",
+        "youtube.sa",
+        "youtube.se",
+        "youtube.sg",
+        "youtube.si",
+        "youtube.sk",
+        "youtube.sn",
+        "youtube.soy",
+        "youtube.sv",
+        "youtube.tn",
+        "youtube.tv",
+        "youtube.ua",
+        "youtube.ug",
+        "youtube.uy",
+        "youtube.vn",
+        "youtubeeducation.com",
+        "youtubefanfest.com",
+        "youtubegaming.com",
+        "youtubego.co.id",
+        "youtubego.co.in",
+        "youtubego.com",
+        "youtubego.com.br",
+        "youtubego.id",
+        "youtubego.in",
+        "youtubekids.com",
+        "youtubemobilesupport.com",
+        "yt.be",
+        "ytimg.com"
+      ]
+    },
+    {
+      "id": "zetflix",
+      "name": "Zetflix",
+      "kind": "service",
+      "grouping": "curated-aliases",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
+      "category": "video",
+      "categories": [
+        "video"
+      ],
+      "domains": [
+        "zeflix.online",
+        "zet-flix.online",
+        "zetflix-online.lol",
+        "zetflix-online.skin",
+        "zetflix.app",
+        "zetimage.net"
+      ]
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "kind": "service",
+      "grouping": "reference-list",
+      "ipv4Lists": [],
+      "sources": [
+        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/pinterest"
+      ],
+      "category": "social",
+      "categories": [
+        "social"
+      ],
+      "domains": [
+        "pin.it",
+        "pinimg.com",
+        "pinterest.com"
+      ]
+    }
+  ]
+}
