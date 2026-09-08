@@ -3242,6 +3242,11 @@
             "spotifyjobs.com"
           ]
         }
+      ],
+      "probeDomains": [
+        "spotify.com",
+        "open.spotify.com",
+        "accounts.spotify.com"
       ]
     },
     {
