@@ -2925,7 +2925,7 @@
     },
     {
       "id": "domain-mixcloud-com",
-      "name": "mixcloud.com",
+      "name": "Mixcloud",
       "kind": "independent",
       "grouping": "independent-domain",
       "ipv4Lists": [],
@@ -2936,6 +2936,12 @@
             "mixcloud.com"
           ]
         }
+      ],
+      "probeDomains": [
+        "mixcloud.com"
+      ],
+      "probeRejectPatterns": [
+        "block access to Mixcloud from IP addresses in your country"
       ]
     },
     {
