@@ -593,6 +593,9 @@
             "openai.com"
           ]
         }
+      ],
+      "probeDomains": [
+        "chatgpt.com"
       ]
     },
     {
