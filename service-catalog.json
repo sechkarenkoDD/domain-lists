@@ -2622,14 +2622,7 @@
         {
           "category": "ai",
           "domains": [
-            "github.com",
             "githubusercontent.com"
-          ]
-        },
-        {
-          "category": "hosting-dev",
-          "domains": [
-            "github.com"
           ]
         }
       ]
@@ -2649,7 +2642,6 @@
           "domains": [
             "appspot.com",
             "cloudfunctions.net",
-            "google.com",
             "withgoogle.com"
           ]
         },
@@ -2673,15 +2665,8 @@
           ]
         },
         {
-          "category": "social",
-          "domains": [
-            "google.com"
-          ]
-        },
-        {
           "category": "video",
           "domains": [
-            "google.com",
             "googleapis.com",
             "googleusercontent.com",
             "gstatic.com",
