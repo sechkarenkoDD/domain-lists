@@ -106,7 +106,9 @@
   "services": [
     {
       "id": "anthropic",
+      "detector404Slug": "claude",
       "name": "Anthropic / Claude",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -134,8 +136,14 @@
           ]
         }
       ],
-      "probeDomains": [
-        "claude.ai"
+      "probeUrls": [
+        "https://claude.ai/api/organizations"
+      ],
+      "probeRejectPatterns": [
+        "cf-mitigated",
+        "just a moment...",
+        "attention required",
+        "captcha"
       ]
     },
     {
@@ -158,6 +166,7 @@
     },
     {
       "id": "bing",
+      "detector404Slug": "bing",
       "name": "Bing",
       "kind": "service",
       "grouping": "reference-list",
@@ -177,6 +186,7 @@
     },
     {
       "id": "cloudflare",
+      "detector404Slug": "cloudflare",
       "name": "Cloudflare",
       "kind": "shared",
       "grouping": "reference-list",
@@ -247,6 +257,7 @@
     },
     {
       "id": "deepseek",
+      "detector404Slug": "deepseek",
       "name": "DeepSeek",
       "kind": "service",
       "grouping": "reference-list",
@@ -394,6 +405,7 @@
     },
     {
       "id": "elevenlabs",
+      "detector404Slug": "elevenlabsio",
       "name": "ElevenLabs",
       "kind": "service",
       "grouping": "reference-list",
@@ -579,7 +591,9 @@
     },
     {
       "id": "openai",
+      "detector404Slug": "chatgpt",
       "name": "OpenAI / ChatGPT",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -597,12 +611,19 @@
           ]
         }
       ],
-      "probeDomains": [
-        "chatgpt.com"
+      "probeUrls": [
+        "https://chatgpt.com/api/auth/session"
+      ],
+      "probeRejectPatterns": [
+        "unable to load site",
+        "cf-mitigated",
+        "just a moment...",
+        "attention required"
       ]
     },
     {
       "id": "perplexity",
+      "detector404Slug": "perplexityai",
       "name": "Perplexity",
       "kind": "service",
       "grouping": "reference-list",
@@ -623,6 +644,7 @@
     },
     {
       "id": "xai",
+      "detector404Slug": "xai",
       "name": "xAI / Grok",
       "kind": "service",
       "grouping": "reference-list",
@@ -666,6 +688,7 @@
     },
     {
       "id": "anilibria",
+      "detector404Slug": "anilibriatv",
       "name": "AniLibria",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -690,6 +713,7 @@
     },
     {
       "id": "domain-animego-org",
+      "detector404Slug": "animego",
       "name": "animego.org",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -720,6 +744,7 @@
     },
     {
       "id": "domain-animevost-org",
+      "detector404Slug": "animevost",
       "name": "animevost.org",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -750,6 +775,7 @@
     },
     {
       "id": "domain-crunchyroll-com",
+      "detector404Slug": "crunchyroll",
       "name": "crunchyroll.com",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -1179,6 +1205,7 @@
     },
     {
       "id": "domain-ficbook-net",
+      "detector404Slug": "ficbook",
       "name": "ficbook.net",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -1254,6 +1281,7 @@
     },
     {
       "id": "domain-rulate-ru",
+      "detector404Slug": "rulate",
       "name": "rulate.ru",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -1385,6 +1413,7 @@
     },
     {
       "id": "discord",
+      "detector404Slug": "discord",
       "name": "Discord",
       "kind": "service",
       "grouping": "reference-list",
@@ -1850,6 +1879,7 @@
     },
     {
       "id": "signal",
+      "detector404Slug": "signalorg",
       "name": "Signal",
       "kind": "service",
       "grouping": "reference-list",
@@ -1874,6 +1904,7 @@
     },
     {
       "id": "telegram",
+      "detector404Slug": "telegram",
       "name": "Telegram",
       "kind": "service",
       "grouping": "reference-list",
@@ -1926,6 +1957,7 @@
     },
     {
       "id": "viber",
+      "detector404Slug": "viber",
       "name": "Viber",
       "kind": "service",
       "grouping": "reference-list",
@@ -1948,7 +1980,9 @@
     },
     {
       "id": "whatsapp",
+      "detector404Slug": "whatsapp",
       "name": "WhatsApp",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -2048,6 +2082,7 @@
     },
     {
       "id": "domain-duolingo-com",
+      "detector404Slug": "duolingo",
       "name": "duolingo.com",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -2141,6 +2176,7 @@
     },
     {
       "id": "bestchange",
+      "detector404Slug": "bestchange",
       "name": "BestChange",
       "kind": "service",
       "grouping": "reference-list",
@@ -2383,6 +2419,7 @@
     },
     {
       "id": "itch",
+      "detector404Slug": "itchio",
       "name": "itch.io",
       "kind": "service",
       "grouping": "reference-list",
@@ -2428,6 +2465,7 @@
     },
     {
       "id": "nexusmods",
+      "detector404Slug": "nexusmods",
       "name": "Nexus Mods",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -2570,6 +2608,7 @@
     },
     {
       "id": "github",
+      "detector404Slug": "github",
       "name": "GitHub",
       "kind": "service",
       "grouping": "reference-list",
@@ -3089,6 +3128,7 @@
     },
     {
       "id": "itunes",
+      "detector404Slug": "itunes",
       "name": "Apple iTunes",
       "kind": "service",
       "grouping": "reference-list",
@@ -3198,6 +3238,7 @@
     },
     {
       "id": "soundcloud",
+      "detector404Slug": "soundcloud",
       "name": "SoundCloud",
       "kind": "service",
       "grouping": "reference-list",
@@ -3226,6 +3267,7 @@
     },
     {
       "id": "spotify",
+      "detector404Slug": "spotify",
       "name": "Spotify",
       "kind": "service",
       "grouping": "reference-list",
@@ -4454,6 +4496,7 @@
     },
     {
       "id": "domain-4pda-to",
+      "detector404Slug": "4pda",
       "name": "4pda.to",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -4535,6 +4578,7 @@
     },
     {
       "id": "domain-ru-board-com",
+      "detector404Slug": "ruboard",
       "name": "ru-board.com",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -4584,7 +4628,9 @@
     },
     {
       "id": "facebook",
+      "detector404Slug": "facebook",
       "name": "Facebook",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -4739,7 +4785,9 @@
     },
     {
       "id": "instagram",
+      "detector404Slug": "instagram",
       "name": "Instagram",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -4802,6 +4850,7 @@
     },
     {
       "id": "patreon",
+      "detector404Slug": "patreon",
       "name": "Patreon",
       "kind": "service",
       "grouping": "reference-list",
@@ -4821,6 +4870,7 @@
     },
     {
       "id": "quora",
+      "detector404Slug": "quora",
       "name": "Quora",
       "kind": "service",
       "grouping": "reference-list",
@@ -4840,6 +4890,7 @@
     },
     {
       "id": "snapchat",
+      "detector404Slug": "snapchat",
       "name": "Snapchat",
       "kind": "service",
       "grouping": "reference-list",
@@ -4875,6 +4926,7 @@
     },
     {
       "id": "tiktok",
+      "detector404Slug": "tiktok",
       "name": "TikTok",
       "kind": "service",
       "grouping": "reference-list",
@@ -4911,6 +4963,7 @@
     },
     {
       "id": "twitter",
+      "detector404Slug": "twitter",
       "name": "X / Twitter",
       "kind": "service",
       "grouping": "reference-list",
@@ -4985,6 +5038,7 @@
     },
     {
       "id": "canva",
+      "detector404Slug": "canva",
       "name": "Canva",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -5088,6 +5142,7 @@
     },
     {
       "id": "domain-anydesk-com",
+      "detector404Slug": "anydesk",
       "name": "anydesk.com",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -5373,6 +5428,7 @@
     },
     {
       "id": "domain-whoop-com",
+      "detector404Slug": "whoop",
       "name": "whoop.com",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -5412,6 +5468,7 @@
     },
     {
       "id": "fatsecret",
+      "detector404Slug": "fatsecret",
       "name": "FatSecret",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -5556,6 +5613,7 @@
     },
     {
       "id": "miro",
+      "detector404Slug": "miro",
       "name": "Miro",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -5616,6 +5674,7 @@
     },
     {
       "id": "notion",
+      "detector404Slug": "notion",
       "name": "Notion",
       "kind": "service",
       "grouping": "reference-list",
@@ -5649,6 +5708,7 @@
     },
     {
       "id": "proton",
+      "detector404Slug": "proton-mail",
       "name": "Proton",
       "kind": "service",
       "grouping": "reference-list",
@@ -5883,6 +5943,7 @@
     },
     {
       "id": "kinozal",
+      "detector404Slug": "kinozaltv",
       "name": "Kinozal",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -5951,6 +6012,7 @@
     },
     {
       "id": "rutor",
+      "detector404Slug": "rutor",
       "name": "Rutor",
       "kind": "service",
       "grouping": "curated-aliases",
@@ -5977,6 +6039,7 @@
     },
     {
       "id": "rutracker",
+      "detector404Slug": "rutracker",
       "name": "RuTracker",
       "kind": "service",
       "grouping": "reference-list",
@@ -6184,6 +6247,7 @@
     },
     {
       "id": "domain-seasonvar-ru",
+      "detector404Slug": "seasonvar",
       "name": "seasonvar.ru",
       "kind": "independent",
       "grouping": "independent-domain",
@@ -6251,6 +6315,7 @@
     },
     {
       "id": "hdrezka",
+      "detector404Slug": "hdrezka",
       "name": "HDRezka",
       "kind": "service",
       "grouping": "reference-list",
@@ -6278,6 +6343,7 @@
     },
     {
       "id": "kinopub",
+      "detector404Slug": "kinopub",
       "name": "KinoPub",
       "kind": "service",
       "grouping": "reference-list",
@@ -6438,7 +6504,9 @@
     },
     {
       "id": "youtube",
+      "detector404Slug": "youtube",
       "name": "YouTube",
+      "routingPolicy": "vpn-required",
       "kind": "service",
       "grouping": "reference-list",
       "ipv4Lists": [],
@@ -6647,6 +6715,7 @@
     },
     {
       "id": "pinterest",
+      "detector404Slug": "pinterest",
       "name": "Pinterest",
       "kind": "service",
       "grouping": "reference-list",
