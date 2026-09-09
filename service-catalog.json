@@ -424,24 +424,6 @@
       ]
     },
     {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "kind": "service",
-      "grouping": "reference-list",
-      "ipv4Lists": [],
-      "sources": [
-        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/github-copilot"
-      ],
-      "memberships": [
-        {
-          "category": "ai",
-          "domains": [
-            "githubcopilot.com"
-          ]
-        }
-      ]
-    },
-    {
       "id": "grammarly",
       "name": "Grammarly",
       "kind": "service",
@@ -2604,25 +2586,6 @@
           "category": "hosting-dev",
           "domains": [
             "ovh.net"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "github",
-      "detector404Slug": "github",
-      "name": "GitHub",
-      "kind": "service",
-      "grouping": "reference-list",
-      "ipv4Lists": [],
-      "sources": [
-        "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/github"
-      ],
-      "memberships": [
-        {
-          "category": "ai",
-          "domains": [
-            "githubusercontent.com"
           ]
         }
       ]
