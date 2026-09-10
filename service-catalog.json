@@ -4939,6 +4939,27 @@
       ]
     },
     {
+      "id": "apple-siri-homepod",
+      "name": "Apple Siri / HomePod",
+      "routingPolicy": "vpn-required",
+      "kind": "service",
+      "grouping": "explicit",
+      "ipv4Lists": [],
+      "membershipStatus": "service-bundle",
+      "membershipPolicy": "Keep the Apple Community and Siri/HomePod endpoints together so they follow the same VPN routing policy.",
+      "memberships": [
+        {
+          "category": "tools",
+          "domains": [
+            "discussions.apple.com",
+            "guzzoni.apple.com",
+            "smoot.apple.com",
+            "swallow.apple.com"
+          ]
+        }
+      ]
+    },
+    {
       "id": "autodesk",
       "name": "Autodesk",
       "kind": "service",
