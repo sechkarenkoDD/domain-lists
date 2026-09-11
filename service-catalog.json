@@ -271,23 +271,6 @@
       ]
     },
     {
-      "id": "domain-gpt3-openai-com",
-      "name": "gpt3-openai.com",
-      "kind": "independent",
-      "grouping": "independent-domain",
-      "ipv4Lists": [],
-      "membershipStatus": "standalone",
-      "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
-      "memberships": [
-        {
-          "category": "ai",
-          "domains": [
-            "gpt3-openai.com"
-          ]
-        }
-      ]
-    },
-    {
       "id": "domain-kilo-ai",
       "name": "kilo.ai",
       "kind": "independent",
