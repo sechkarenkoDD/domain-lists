@@ -5009,22 +5009,17 @@
       ]
     },
     {
-      "id": "apple-siri-homepod",
-      "name": "Apple Siri / HomePod",
+      "id": "apple-community",
+      "name": "Apple Community",
       "routingPolicy": "vpn-required",
-      "kind": "service",
-      "grouping": "explicit",
+      "kind": "independent",
+      "grouping": "independent-domain",
       "ipv4Lists": [],
-      "membershipStatus": "service-bundle",
-      "membershipPolicy": "Keep the Apple Community and Siri/HomePod endpoints together so they follow the same VPN routing policy.",
       "memberships": [
         {
           "category": "tools",
           "domains": [
-            "discussions.apple.com",
-            "guzzoni.apple.com",
-            "smoot.apple.com",
-            "swallow.apple.com"
+            "discussions.apple.com"
           ]
         }
       ]
