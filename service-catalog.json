@@ -23,9 +23,9 @@
       "listPath": "lists/Automotive.lst"
     },
     {
-      "id": "communication",
-      "dataPath": "data/communication",
-      "listPath": "lists/Communication.lst"
+      "id": "social",
+      "dataPath": "data/social",
+      "listPath": "lists/Social.lst"
     },
     {
       "id": "design",
@@ -71,11 +71,6 @@
       "id": "porn",
       "dataPath": "data/porn",
       "listPath": "lists/Porn.lst"
-    },
-    {
-      "id": "social",
-      "dataPath": "data/social",
-      "listPath": "lists/Social.lst"
     },
     {
       "id": "tools",
@@ -1044,18 +1039,6 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "anime",
-          "domains": [
-            "wstracker.online"
-          ]
-        },
-        {
-          "category": "porn",
-          "domains": [
-            "wstracker.online"
-          ]
-        },
-        {
           "category": "torrents",
           "domains": [
             "wstracker.online"
@@ -1406,7 +1389,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "dis.gd",
             "discord-activities.com",
@@ -1442,7 +1425,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "disboard.org"
           ]
@@ -1457,7 +1440,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discord.center"
           ]
@@ -1472,7 +1455,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discord.me"
           ]
@@ -1487,7 +1470,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discord.st"
           ]
@@ -1502,7 +1485,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordbee.com"
           ]
@@ -1517,7 +1500,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordbotlist.com"
           ]
@@ -1532,7 +1515,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordexpert.com"
           ]
@@ -1547,7 +1530,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordhome.com"
           ]
@@ -1562,7 +1545,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordhub.com"
           ]
@@ -1577,7 +1560,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordinvites.net"
           ]
@@ -1592,7 +1575,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordlist.me"
           ]
@@ -1607,7 +1590,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordlist.space"
           ]
@@ -1622,7 +1605,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discords.com"
           ]
@@ -1637,7 +1620,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordservers.com"
           ]
@@ -1652,7 +1635,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "discordtop.com"
           ]
@@ -1667,7 +1650,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "disforge.com"
           ]
@@ -1682,7 +1665,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "dyno.gg"
           ]
@@ -1697,7 +1680,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "findadiscord.com"
           ]
@@ -1712,7 +1695,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "keet.io"
           ]
@@ -1727,7 +1710,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "mee6.xyz"
           ]
@@ -1742,7 +1725,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "rakuten.com"
           ]
@@ -1757,7 +1740,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "top.gg"
           ]
@@ -1773,7 +1756,7 @@
       "membershipPolicy": "separate-domain; source attribution is insufficient to merge it with WhatsApp",
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "wl.co"
           ]
@@ -1788,7 +1771,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "zello.com"
           ]
@@ -1803,7 +1786,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "fragment.com"
           ]
@@ -1819,7 +1802,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "dynect.net"
           ]
@@ -1835,7 +1818,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "softlayer.com"
           ]
@@ -1853,7 +1836,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "messenger.com"
           ]
@@ -1872,7 +1855,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "signal.art",
             "signal.group",
@@ -1900,7 +1883,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "cdn-telegram.org",
             "comments.app",
@@ -1932,7 +1915,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "ton.org"
           ]
@@ -1951,7 +1934,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "vbcdn.com",
             "vbcdn.net",
@@ -1975,7 +1958,7 @@
       ],
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "wa.me",
             "whatsapp.biz",
@@ -2004,7 +1987,7 @@
       "membershipPolicy": "Third-party bundle is not merged with the similarly named first-party service.",
       "memberships": [
         {
-          "category": "communication",
+          "category": "social",
           "domains": [
             "whatsapp-plus.info",
             "whatsapp-plus.me",
@@ -2477,22 +2460,10 @@
       ],
       "memberships": [
         {
-          "category": "ai",
-          "domains": [
-            "amazonaws.com"
-          ]
-        },
-        {
           "category": "hosting-dev",
           "domains": [
             "amazonaws.com",
             "cloudfront.net"
-          ]
-        },
-        {
-          "category": "tools",
-          "domains": [
-            "amazonaws.com"
           ]
         }
       ]
@@ -2609,15 +2580,10 @@
           ]
         },
         {
-          "category": "communication",
-          "domains": [
-            "googleapis.com"
-          ]
-        },
-        {
           "category": "hosting-dev",
           "domains": [
             "1e100.net",
+            "googleapis.com",
             "googleusercontent.com"
           ]
         },
@@ -2630,8 +2596,6 @@
         {
           "category": "video",
           "domains": [
-            "googleapis.com",
-            "googleusercontent.com",
             "gstatic.com",
             "gvt1.com"
           ]
@@ -2648,13 +2612,6 @@
         "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/jetbrains"
       ],
       "memberships": [
-        {
-          "category": "ai",
-          "domains": [
-            "intellij.net",
-            "jetbrains.com"
-          ]
-        },
         {
           "category": "hosting-dev",
           "domains": [
@@ -3019,12 +2976,11 @@
         {
           "category": "music",
           "domains": [
-            "confiant-integrations.global.ssl.fastly.net",
-            "fastly.net"
+            "confiant-integrations.global.ssl.fastly.net"
           ]
         },
         {
-          "category": "news-media",
+          "category": "hosting-dev",
           "domains": [
             "fastly.net"
           ]
@@ -4482,14 +4438,18 @@
         {
           "category": "music",
           "domains": [
-            "a1657.w27.akamai.net",
-            "akamaized.net"
+            "a1657.w27.akamai.net"
           ]
         },
         {
           "category": "social",
           "domains": [
-            "akamai.net",
+            "akamai.net"
+          ]
+        },
+        {
+          "category": "hosting-dev",
+          "domains": [
             "akamaized.net"
           ]
         }
@@ -4664,14 +4624,6 @@
       "membershipStatus": "service-bundle",
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
-        {
-          "category": "communication",
-          "domains": [
-            "facebook.com",
-            "fbcdn.net",
-            "fbsbx.com"
-          ]
-        },
         {
           "category": "social",
           "domains": [
@@ -5578,12 +5530,6 @@
           "domains": [
             "onetrust.com"
           ]
-        },
-        {
-          "category": "video",
-          "domains": [
-            "onetrust.com"
-          ]
         }
       ]
     },
@@ -6001,7 +5947,6 @@
           "category": "video",
           "domains": [
             "kinozal.guru",
-            "kinozal.me",
             "kinozal.tv"
           ]
         }
