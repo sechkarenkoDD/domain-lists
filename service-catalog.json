@@ -23,9 +23,9 @@
       "listPath": "lists/Automotive.lst"
     },
     {
-      "id": "social",
-      "dataPath": "data/social",
-      "listPath": "lists/Social.lst"
+      "id": "social-communication",
+      "dataPath": "data/social-communication",
+      "listPath": "lists/Social-Communication.lst"
     },
     {
       "id": "design",
@@ -1389,7 +1389,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "dis.gd",
             "discord-activities.com",
@@ -1425,7 +1425,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "disboard.org"
           ]
@@ -1440,7 +1440,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discord.center"
           ]
@@ -1455,7 +1455,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discord.me"
           ]
@@ -1470,7 +1470,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discord.st"
           ]
@@ -1485,7 +1485,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordbee.com"
           ]
@@ -1500,7 +1500,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordbotlist.com"
           ]
@@ -1515,7 +1515,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordexpert.com"
           ]
@@ -1530,7 +1530,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordhome.com"
           ]
@@ -1545,7 +1545,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordhub.com"
           ]
@@ -1560,7 +1560,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordinvites.net"
           ]
@@ -1575,7 +1575,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordlist.me"
           ]
@@ -1590,7 +1590,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordlist.space"
           ]
@@ -1605,7 +1605,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discords.com"
           ]
@@ -1620,7 +1620,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordservers.com"
           ]
@@ -1635,7 +1635,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "discordtop.com"
           ]
@@ -1650,7 +1650,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "disforge.com"
           ]
@@ -1665,7 +1665,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "dyno.gg"
           ]
@@ -1680,7 +1680,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "findadiscord.com"
           ]
@@ -1695,7 +1695,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "keet.io"
           ]
@@ -1710,7 +1710,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "mee6.xyz"
           ]
@@ -1725,7 +1725,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "rakuten.com"
           ]
@@ -1740,7 +1740,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "top.gg"
           ]
@@ -1756,7 +1756,7 @@
       "membershipPolicy": "separate-domain; source attribution is insufficient to merge it with WhatsApp",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "wl.co"
           ]
@@ -1771,7 +1771,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "zello.com"
           ]
@@ -1786,7 +1786,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "fragment.com"
           ]
@@ -1802,7 +1802,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "dynect.net"
           ]
@@ -1818,7 +1818,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "softlayer.com"
           ]
@@ -1836,7 +1836,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "messenger.com"
           ]
@@ -1855,7 +1855,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "signal.art",
             "signal.group",
@@ -1883,7 +1883,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "cdn-telegram.org",
             "comments.app",
@@ -1915,7 +1915,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "ton.org"
           ]
@@ -1934,7 +1934,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "vbcdn.com",
             "vbcdn.net",
@@ -1958,7 +1958,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "wa.me",
             "whatsapp.biz",
@@ -1987,7 +1987,7 @@
       "membershipPolicy": "Third-party bundle is not merged with the similarly named first-party service.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "whatsapp-plus.info",
             "whatsapp-plus.me",
@@ -4442,7 +4442,7 @@
           ]
         },
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "akamai.net"
           ]
@@ -4466,7 +4466,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "byteimg.com",
             "byteoversea.com",
@@ -4487,7 +4487,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "4pda.to"
           ]
@@ -4504,7 +4504,7 @@
       "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "atomile.com"
           ]
@@ -4519,7 +4519,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "cwer.ws"
           ]
@@ -4536,7 +4536,7 @@
       "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "musemuse.cn"
           ]
@@ -4553,7 +4553,7 @@
       "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "rocket-cdn.com"
           ]
@@ -4569,7 +4569,7 @@
       "ipv4Lists": [],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "ru-board.com"
           ]
@@ -4586,7 +4586,7 @@
       "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "worldfcdn.com"
           ]
@@ -4603,7 +4603,7 @@
       "membershipPolicy": "No verified relationship to another catalog service; route and test independently.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "worldfcdn2.com"
           ]
@@ -4625,7 +4625,7 @@
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "facebook.com",
             "facebook.com.es",
@@ -4653,7 +4653,7 @@
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "gethornet.com",
             "hornet-live.com",
@@ -4672,7 +4672,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "adsbynimbus.com"
           ]
@@ -4688,7 +4688,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "bytetcdn.com"
           ]
@@ -4704,7 +4704,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "ipstatp.com"
           ]
@@ -4720,7 +4720,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "isnssdk.com"
           ]
@@ -4736,7 +4736,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "sgsnssdk.com"
           ]
@@ -4752,7 +4752,7 @@
       "membershipPolicy": "independent-infrastructure",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "tlivecdn.com"
           ]
@@ -4775,7 +4775,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "cdninstagram.com",
             "ig.me",
@@ -4798,7 +4798,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "licdn.com",
             "linkedin.com"
@@ -4816,7 +4816,7 @@
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "meetme.com",
             "meetmecdna.com"
@@ -4836,7 +4836,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "patreon.com",
             "patreonusercontent.com"
@@ -4856,7 +4856,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "quora.com",
             "quoracdn.net"
@@ -4878,7 +4878,7 @@
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "addlive.io",
             "feelinsonice.com",
@@ -4914,7 +4914,7 @@
       "membershipPolicy": "Keep this service bundle together; each endpoint must still pass the service health probe.",
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "account-tiktok.com",
             "muscdn.com",
@@ -4949,7 +4949,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "t.co",
             "tweetdeck.com",
@@ -6710,7 +6710,7 @@
       ],
       "memberships": [
         {
-          "category": "social",
+          "category": "social-communication",
           "domains": [
             "pin.it",
             "pinimg.com",
